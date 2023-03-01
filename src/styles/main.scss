@@ -152,6 +152,8 @@
 .slider {
   .slider-container {
     padding-top: 5rem;
+    margin-bottom: 5rem;
+
     h1 {
       text-align: center;
       font-size: 4rem;
@@ -160,14 +162,42 @@
 
     .card {
       padding: 2rem;
-      margin: 2rem;
+      margin: 2rem auto;
       border: none;
+      max-width: 80rem;
+      position: relative;
 
       .slider--img {
         width: 100px;
         height: 100px;
         margin: 2rem auto;
         border-radius: 50%;
+      }
+
+      .slider--rating {
+        max-width: 20rem;
+        margin: 1.5rem auto;
+      }
+
+      .slider-btn {
+        position: absolute;
+        width: 5rem;
+        height: 5rem;
+        top: 50%;
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 50%;
+        border: none;
+        box-shadow: 0 5px 5px $color-white-dark;
+
+        &.btn--left {
+          left: 5%;
+        }
+
+        &.btn--right {
+          right: 5%;
+        }
       }
     }
   }
