@@ -134,6 +134,26 @@ html {
   border-radius: 1rem;
 }
 
+.slider .slider-container {
+  padding-top: 5rem;
+}
+.slider .slider-container h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.slider .slider-container .card {
+  padding: 2rem;
+  margin: 2rem;
+  border: none;
+}
+.slider .slider-container .card .slider--img {
+  width: 100px;
+  height: 100px;
+  margin: 2rem auto;
+  border-radius: 50%;
+}
+
 @media (min-width: 10em) {
   .hero .hero-container {
     grid-template-areas: "one one" "two two";

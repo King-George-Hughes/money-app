@@ -148,6 +148,31 @@
   }
 }
 
+// Slider
+.slider {
+  .slider-container {
+    padding-top: 5rem;
+    h1 {
+      text-align: center;
+      font-size: 4rem;
+      font-weight: bold;
+    }
+
+    .card {
+      padding: 2rem;
+      margin: 2rem;
+      border: none;
+
+      .slider--img {
+        width: 100px;
+        height: 100px;
+        margin: 2rem auto;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
 @media (min-width: 10em) {
   .hero {
     .hero-container {
