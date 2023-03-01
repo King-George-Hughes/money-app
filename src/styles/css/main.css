@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #5ec576;
+  font-size: 62.5%;
+  font-weight: 300;
+}
+
+.nav {
+  width: 100%;
+  height: 80px;
+}
+.nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: relative;
+}
+.nav .container .logo {
+  font-size: 2rem;
+  z-index: 10;
+}
+.nav .container .menu {
+  position: absolute;
+  width: 100%;
+  height: 340px;
+  top: -350px;
+  left: 0;
+  padding-bottom: 1.2rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: top 0.4s ease-out;
+}
+.nav .container .menu ul {
+  list-style-type: none;
+}
+.nav .container .menu ul li {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+  border-bottom: 1px solid #aaa;
+  width: 100%;
+  padding: 0.4rem;
+}
+.nav .container .menu .get-help {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.nav .container .menu.active {
+  top: 80px;
+}
+.nav .container .hidden {
+  display: none;
+}
+.nav .container .toggle {
+  width: 30px;
+  height: 20px;
+  background: url("./../../images/menu.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: invert(1);
+  cursor: pointer;
+}
+
+.hero {
+  padding: 3rem 1.5rem;
+  width: 100%;
+}
+.hero .hero-container {
+  width: 100%;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-areas: "one" "two";
+}
+.hero .hero--section-1 {
+  grid-area: one;
+  text-align: center;
+}
+.hero .hero--section-1 .title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #444;
+  line-height: 4rem;
+  margin-bottom: 4rem;
+}
+.hero .hero--section-2 {
+  grid-area: two;
+  text-align: center;
+}
+.hero .hero--section-2 img {
+  width: 100%;
+  max-width: 450px;
+}
+
+.tuto {
+  padding: 3rem 1.5rem;
+  width: 100%;
+}
+.tuto .tuto-container {
+  width: 100%;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-areas: "one" "two";
+}
+.tuto .tuto-container .tuto--section-1 {
+  grid-area: one;
+  text-align: center;
+}
+.tuto .tuto-container .tuto--section-1 img {
+  width: 100%;
+  max-width: 450px;
+}
+.tuto .tuto-container .tuto--section-2 {
+  grid-area: two;
+}
+.tuto .tuto-container .tuto--section-2 .card {
+  border: none;
+}
+
+@media (min-width: 10em) {
+  .hero .hero-container {
+    grid-template-areas: "one one" "two two";
+  }
+  .tuto .tuto-container {
+    grid-template-areas: "one one" "two two";
+  }
+}/*# sourceMappingURL=main.css.map */

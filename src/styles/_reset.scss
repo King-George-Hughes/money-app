@@ -1,0 +1,13 @@
+@import "variables";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: $color-primary;
+  font-size: 62.5%;
+  font-weight: 300;
+}
