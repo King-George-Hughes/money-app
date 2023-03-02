@@ -1,6 +1,9 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const homePage = "/";
+  const ourStory = "/our-story";
   const link = "#";
 
   const [toggle, setToggle] = useState(true);
@@ -12,13 +15,17 @@ const Navbar = () => {
   return (
     <nav className="nav">
       <div className="container">
-        <a href={link} className="logo">
+        <a href={homePage} className="logo">
           LOGO
         </a>
         <div className={toggle ? "menu" : "menu active"}>
           <ul>
-            <li>Who we are</li>
-            <li>Who it works</li>
+            <li>
+              <Link to={homePage}>Who we are</Link>
+            </li>
+            <li>
+              <Link to={ourStory}>Who it works</Link>
+            </li>
             <li>Countries</li>
           </ul>
           <a href={link} className="get-help">

@@ -24,9 +24,8 @@ const Home = () => {
             <h1 className="title">Send money with love</h1>
             <img
               src="../img/love.jpg"
-              className="img-fluid my-5"
+              className="img-fluid mb-5 mt-2 love-img"
               alt=""
-              style={{ borderRadius: 20 }}
             />
             <div>
               <a href={link} className="mx-3">
@@ -92,7 +91,7 @@ const Home = () => {
               At Sendwave, we're on a mission: to make sure your money gets to
               your friends and family, as safely and effortlessly as possible.
             </p>
-            <button className="btn btn-primary fs-1">Our Story</button>
+            <button className="btn btn-primary fs-1 p-4 px-5">Our Story</button>
           </div>
           <div className="story--section-2">
             <img src="../img/story.png" alt="" />
@@ -106,7 +105,10 @@ const Home = () => {
           <h1 className="display-5 fw-bold pt-5">
             Get started sending money to your loved ones
           </h1>
-          <p className="fs-2 text-muted my-5">
+          <p
+            className="fs-2 text-muted my-5"
+            style={{ maxWidth: 800, margin: "0 auto" }}
+          >
             Simply download the app, link your debit card, verify your identity
             and quickly transfer money to your friends and loved ones.
             Seriously, it’s that simple.
