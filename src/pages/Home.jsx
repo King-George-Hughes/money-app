@@ -1,8 +1,7 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import Card from "../components/Card";
+import Layout from "../layout/Layout";
 import Slider from "../components/Slider";
-import Footer from "../components/Footer";
 import { tutorials } from "../Data/Data";
 
 const Home = () => {
@@ -13,10 +12,7 @@ const Home = () => {
   });
 
   return (
-    <>
-      {/* Navbar */}
-      <Navbar />
-
+    <Layout>
       {/* Hero Content */}
       <div className="hero">
         <div className="container hero-container">
@@ -65,19 +61,6 @@ const Home = () => {
       <div className="slider">
         <div className="container slider-container">
           <h1 className="mb-5">See what our customers say about Sendwave</h1>
-          {/* <div className="card text-center">
-            <img src="../img/pic-1.png" alt="" className="slider--img" />
-            <h4 className="fw-bold fs-2">Hydee Pichai</h4>
-            <h2 className="small fs-3 my-3 fw-normal">The Philippines</h2>
-            <img src="../img/stars.svg" alt="" className="slider--rating" />
-            <p className="text-muted fs-2 mt-4">
-              Sendwave is so fast and convenient to use when I want to send
-              money to the Philippines. I use them because they have no fees and
-              their rates are amazing.
-            </p>
-            <button className="slider-btn btn--left">{"<"}</button>
-            <button className="slider-btn btn--right">{">"}</button>
-          </div> */}
           <Slider />
         </div>
       </div>
@@ -127,10 +110,7 @@ const Home = () => {
           />
         </div>
       </div>
-
-      {/* Footer */}
-      <Footer />
-    </>
+    </Layout>
   );
 };
 

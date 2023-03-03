@@ -1,14 +1,16 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Layout from "../layout/Layout";
 
 const OurStory = () => {
   return (
-    <div>
-      <Navbar />
-      OurStory
-      <Footer />
-    </div>
+    <Layout>
+      <div className="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit molestiae
+        id illo consequuntur provident hic distinctio veritatis fuga
+        praesentium, dolorem omnis nam debitis vel ducimus natus est. Animi,
+        neque asperiores.
+      </div>
+    </Layout>
   );
 };
 
