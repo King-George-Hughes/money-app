@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser } from "@fortawesome/free-regular-svg-icons";
 
 const Navbar = () => {
   const homePage = "/";
   const ourStory = "/our-story";
+  const career = "/careers";
   const link = "#";
 
   const [toggle, setToggle] = useState(true);
@@ -15,9 +18,37 @@ const Navbar = () => {
   return (
     <nav className="nav">
       <div className="container">
-        <a href={homePage} className="logo">
+        <Link to={homePage} className="logo">
           kudiXpress
-        </a>
+        </Link>
+
+        {/* Nav */}
+        <div className="top-menu">
+          <ul className="list-unstyled ul-1">
+            <li>
+              <Link className="link current">Who we are</Link>
+            </li>
+            <li>
+              <Link className="link">Who it works</Link>
+            </li>
+            <li>
+              <Link className="link">Countries</Link>
+            </li>
+            <li>
+              <Link className="link">Get Help</Link>
+            </li>
+            {/* <li>
+              <FontAwesomeIcon icon={faUser} />
+            </li> */}
+          </ul>
+          <ul className="ul-2 list-unstyled">
+            <li>
+              <Link className="btn btn-success btn-lg link">Download App</Link>
+            </li>
+          </ul>
+        </div>
+
+        {/* Hidden Nav */}
         <div className={toggle ? "menu" : "menu active"}>
           <ul>
             <li>
@@ -26,7 +57,9 @@ const Navbar = () => {
             <li>
               <Link to={ourStory}>Who it works</Link>
             </li>
-            <li>Countries</li>
+            <li>
+              <Link to={career}>Countries</Link>
+            </li>
           </ul>
           <a href={link} className="get-help">
             Get Help

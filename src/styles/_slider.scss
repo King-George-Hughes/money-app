@@ -1,0 +1,82 @@
+// Slider
+.slider {
+  position: relative;
+  padding-bottom: 3rem;
+  margin: 3rem 0;
+  padding: 5rem 0;
+
+  &::after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    transform: skewY(-5deg);
+    background: $gradient-primary-v2;
+  }
+  .slider-container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-bottom: 5rem;
+
+    h1 {
+      text-align: center;
+      font-size: 4rem;
+      font-weight: bold;
+      max-width: 70rem;
+      margin: 0 auto;
+    }
+
+    .card {
+      padding: 2rem;
+      margin: 2rem auto;
+      border: none;
+      max-width: 80rem;
+      border-radius: 2rem;
+      position: relative;
+
+      .slider--img {
+        width: 100px;
+        height: 100px;
+        margin: 2rem auto;
+        border-radius: 50%;
+      }
+
+      .slider--rating {
+        max-width: 20rem;
+        margin: 1.5rem auto;
+      }
+
+      .slider-btn {
+        position: absolute;
+        width: 5rem;
+        height: 5rem;
+        top: 50%;
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 50%;
+        border: none;
+        box-shadow: 0 5px 5px $color-white-dark;
+
+        &.btn--left {
+          left: 5%;
+        }
+
+        &.btn--right {
+          right: 5%;
+        }
+      }
+
+      p {
+        max-width: 60rem;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+      }
+    }
+  }
+}
