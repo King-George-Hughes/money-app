@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer py-5">
       <div className="container footer-container text-center">
         <p className="fs-3 fw-bold mt-5 mb-4" style={{ color: "#ddd" }}>
-          © Chime Inc. NMLS #1161354 Chime Inc. DBA Sendwave è autorizzata in
+          © Chime Inc. NMLS #1161354 Chime Inc. DBA kudiXpress è autorizzata in
           quanto Transmetteur d'Argent dal Dipartimento dei Servizi Finanziari
           di New York.
         </p>
@@ -24,7 +24,8 @@ const Footer = () => {
         </ul>
         <hr className="bg-light my-5" />
         <span className="fs-3">
-          Copyright © {new Date().getFullYear()} Sendwave | All Rights Reserved.
+          Copyright © {new Date().getFullYear()} kudiXpress | All Rights
+          Reserved.
         </span>
       </div>
     </footer>

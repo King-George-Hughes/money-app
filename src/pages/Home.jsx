@@ -60,7 +60,7 @@ const Home = () => {
       {/* Slider */}
       <div className="slider">
         <div className="container slider-container">
-          <h1 className="mb-5">See what our customers say about Sendwave</h1>
+          <h1 className="mb-5">See what our customers say about kudiXpress</h1>
           <Slider />
         </div>
       </div>
@@ -71,7 +71,7 @@ const Home = () => {
           <div className="story--section-1 text-center">
             <h1 className="display-1 fw-bold">Our Story</h1>
             <p className="fs-1 my-5">
-              At Sendwave, we're on a mission: to make sure your money gets to
+              At kudiXpress, we're on a mission: to make sure your money gets to
               your friends and family, as safely and effortlessly as possible.
             </p>
             <button className="btn btn-primary fs-1 p-4 px-5">Our Story</button>

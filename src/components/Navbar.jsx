@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav className="nav">
       <div className="container">
         <a href={homePage} className="logo">
-          LOGO
+          kudiXpress
         </a>
         <div className={toggle ? "menu" : "menu active"}>
           <ul>
