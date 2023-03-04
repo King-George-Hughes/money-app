@@ -141,6 +141,11 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
+
+      .btn-story {
+        background: $gradient-primary-v2;
+        border: none;
+      }
     }
     .story--section-2 {
       grid-area: two;
@@ -155,8 +160,78 @@
   }
 }
 
+// Career Page
+.career {
+  width: 100%;
+  // Career first
+  .career-top {
+    padding-top: 10rem;
+    background: $gradient-primary-v2;
+    position: relative;
+
+    img {
+      width: 100%;
+    }
+
+    .container {
+      text-align: center;
+      padding: 10rem 0;
+
+      h1 {
+        color: $color-white;
+        font-size: 7rem;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .career-container {
+    width: 100%;
+    // Career Second
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    display: grid;
+    gap: 8rem;
+    grid-auto-flow: 1fr;
+    grid-template-areas: "one" "two";
+
+    // Redefine
+    grid-template-areas: "one two" "one two";
+
+    .career--section-1 {
+      grid-area: one;
+
+      h2 {
+        font-size: 5rem;
+        font-weight: bold;
+        margin-bottom: 4rem;
+      }
+
+      p {
+        font-size: 2rem;
+        color: $color-black-light;
+        margin: 2rem 0;
+        letter-spacing: 0.1rem;
+        max-width: 60rem;
+      }
+    }
+    .career--section-2 {
+      grid-area: two;
+      display: flex;
+
+      img {
+        width: 100%;
+        max-width: 60rem;
+        object-fit: cover;
+        border-radius: 0.5rem 5rem 5rem 5rem;
+      }
+    }
+  }
+}
+
 // Media Queries
 @media (max-width: 50em) {
+  // Navigation
   .nav {
     .container {
       .toggle {
@@ -169,6 +244,7 @@
     }
   }
 
+  // Hero
   .hero {
     .hero-container {
       grid-template-areas: "one" "two";
@@ -184,15 +260,49 @@
     }
   }
 
+  // Tutorials
   .tuto {
     .tuto-container {
       grid-template-areas: "one" "two";
     }
   }
 
+  // Story
   .story {
     .story-container {
       grid-template-areas: "one" "two";
+    }
+  }
+
+  // Career
+  .career {
+    .career-top {
+      padding-top: 10rem;
+
+      .container {
+        padding: 3rem 0;
+
+        h1 {
+          font-size: 2.5rem;
+        }
+      }
+    }
+
+    .career-container {
+      grid-template-areas: "two" "one";
+
+      .career--section-1 {
+        grid-area: one;
+
+        h2 {
+          font-size: 3rem;
+          margin-bottom: 2rem;
+        }
+
+        p {
+          font-size: 1.5rem;
+        }
+      }
     }
   }
 }

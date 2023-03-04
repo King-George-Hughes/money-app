@@ -300,6 +300,10 @@ html {
   align-items: center;
   justify-content: center;
 }
+.story .story-container .story--section-1 .btn-story {
+  background: linear-gradient(to top left, #16876b, #39b385);
+  border: none;
+}
 .story .story-container .story--section-2 {
   grid-area: two;
   text-align: center;
@@ -308,6 +312,63 @@ html {
   width: 100%;
   max-width: 50rem;
   margin: 3rem auto;
+}
+
+.career {
+  width: 100%;
+}
+.career .career-top {
+  padding-top: 10rem;
+  background: linear-gradient(to top left, #16876b, #39b385);
+  position: relative;
+}
+.career .career-top img {
+  width: 100%;
+}
+.career .career-top .container {
+  text-align: center;
+  padding: 10rem 0;
+}
+.career .career-top .container h1 {
+  color: #fff;
+  font-size: 7rem;
+  font-weight: bold;
+}
+.career .career-container {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 1rem 3rem;
+  display: grid;
+  gap: 8rem;
+  grid-auto-flow: 1fr;
+  grid-template-areas: "one" "two";
+  grid-template-areas: "one two" "one two";
+}
+.career .career-container .career--section-1 {
+  grid-area: one;
+}
+.career .career-container .career--section-1 h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 4rem;
+}
+.career .career-container .career--section-1 p {
+  font-size: 2rem;
+  color: #444;
+  margin: 2rem 0;
+  letter-spacing: 0.1rem;
+  max-width: 60rem;
+}
+.career .career-container .career--section-2 {
+  grid-area: two;
+  display: flex;
+}
+.career .career-container .career--section-2 img {
+  width: 100%;
+  max-width: 60rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0.5rem 5rem 5rem 5rem;
 }
 
 @media (max-width: 50em) {
@@ -332,5 +393,27 @@ html {
   }
   .story .story-container {
     grid-template-areas: "one" "two";
+  }
+  .career .career-top {
+    padding-top: 10rem;
+  }
+  .career .career-top .container {
+    padding: 3rem 0;
+  }
+  .career .career-top .container h1 {
+    font-size: 2.5rem;
+  }
+  .career .career-container {
+    grid-template-areas: "two" "one";
+  }
+  .career .career-container .career--section-1 {
+    grid-area: one;
+  }
+  .career .career-container .career--section-1 h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  .career .career-container .career--section-1 p {
+    font-size: 1.5rem;
   }
 }/*# sourceMappingURL=main.css.map */

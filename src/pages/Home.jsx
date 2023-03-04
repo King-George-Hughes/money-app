@@ -74,7 +74,7 @@ const Home = () => {
               At kudiXpress, we're on a mission: to make sure your money gets to
               your friends and family, as safely and effortlessly as possible.
             </p>
-            <button className="btn btn-primary fs-1 p-4 px-5">Our Story</button>
+            <button className="btn btn-primary fs-1 p-4 px-5 btn-story">Our Story</button>
           </div>
           <div className="story--section-2">
             <img src="../img/story.png" alt="" />
