@@ -61,7 +61,9 @@ const Home = () => {
       <div className="slider">
         <div className="container slider-container">
           <h1 className="mb-5">See what our customers say about kudiXpress</h1>
-          <Slider />
+          <div className="slider-article-card">
+            <Slider />
+          </div>
         </div>
       </div>
 
@@ -74,7 +76,9 @@ const Home = () => {
               At kudiXpress, we're on a mission: to make sure your money gets to
               your friends and family, as safely and effortlessly as possible.
             </p>
-            <button className="btn btn-primary fs-1 p-4 px-5 btn-story">Our Story</button>
+            <button className="btn btn-primary fs-1 p-4 px-5 btn-story">
+              Our Story
+            </button>
           </div>
           <div className="story--section-2">
             <img src="../img/story.png" alt="" />

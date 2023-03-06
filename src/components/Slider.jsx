@@ -1,20 +1,78 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { sliders } from "../Data/Data";
 
 const Slider = () => {
+  // const sliderClassName = "card text-center";
+  const [slide, setSlide] = useState(sliders);
+  const [index, setIndex] = useState(0);
+  console.log(slide);
+
+  const prevSlide = (e) => {
+    e.preventDefault();
+    setIndex(index - 1);
+  };
+  const nextSlide = (e) => {
+    e.preventDefault();
+    setIndex(index + 1);
+  };
+
+  useEffect(() => {
+    const lastIndex = slide.length - 1;
+    if (index < 0) setIndex(lastIndex);
+    if (index > lastIndex) setIndex(0);
+  }, [index, slide]);
+
+  useEffect(() => {
+    let slider = setInterval(() => {
+      setIndex(index + 1);
+    }, 5000);
+    return () => {
+      clearInterval(slider);
+    };
+  }, [index]);
+
   return (
     <>
-      <div className="card text-center">
-        <img src="../img/pic-1.png" alt="" className="slider--img" />
-        <h4 className="fw-bold fs-2">Hydee Pichai</h4>
-        <h2 className="small fs-3 my-3 fw-normal">The Philippines</h2>
-        <img src="../img/stars.svg" alt="" className="slider--rating" />
-        <p className="text-muted fs-2 mt-4">
-          Sendwave is so fast and convenient to use when I want to send money to
-          the Philippines. I use them because they have no fees and their rates
-          are amazing.
-        </p>
-        <button className="slider-btn btn--left">{"<"}</button>
-        <button className="slider-btn btn--right">{">"}</button>
+      <div className="section-center">
+        {slide.map((person, personIndex) => {
+          const { id, img, name, country, message } = person;
+
+          let position = "nextSlide";
+          if (personIndex === index) {
+            position = "activeSlide";
+          }
+          if (
+            personIndex === index - 1 ||
+            (index === 0 && personIndex === slide.length - 1)
+          ) {
+            position = "lastSlide";
+          }
+
+          return (
+            <article className={position} key={id}>
+              <img src={img} alt={name} className="person-img" />
+              <h2 className="fs-1 fw-bold">{name}</h2>
+              <h3 className="fs-2 my-3">{country}</h3>
+              <img
+                src="../img/stars.svg"
+                alt=""
+                className="slider--rating mb-4"
+              />
+              <p className="fs-2">{message}</p>
+              {/* <FaQuoteRight className="icon" /> */}
+            </article>
+          );
+        })}
+
+        <button className="slider-btn btn--left" onClick={prevSlide}>
+          <FontAwesomeIcon icon={faArrowLeft} />
+        </button>
+        <button className="slider-btn btn--right" onClick={nextSlide}>
+          <FontAwesomeIcon icon={faArrowRight} />
+        </button>
       </div>
     </>
   );

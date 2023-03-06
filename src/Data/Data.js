@@ -49,7 +49,7 @@ export const sliders = [
   {
     id: 3,
     img: "../img/pic-3.png",
-    name: "Moise Lena Jean Louis",
+    name: "Jean Louis",
     country: "Hati",
     message:
       "There are so many things I love about Sendwave: It is easy, fast and there is no fee to send money.",
