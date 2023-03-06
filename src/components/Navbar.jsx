@@ -26,15 +26,17 @@ const Navbar = () => {
         <div className="top-menu">
           <ul className="list-unstyled ul-1">
             <li>
-              <Link className="link current">Who we are</Link>
+              <Link className="link current">Home</Link>
             </li>
             <li>
-              <Link to={career} className="link">
-                Who it works
+              <Link to={ourStory} className="link">
+                Our Story
               </Link>
             </li>
             <li>
-              <Link className="link">Countries</Link>
+              <Link to={career} className="link">
+                Careers
+              </Link>
             </li>
             <li>
               <Link className="link">Get Help</Link>
@@ -54,13 +56,19 @@ const Navbar = () => {
         <div className={toggle ? "menu" : "menu active"}>
           <ul>
             <li>
-              <Link to={homePage}>Who we are</Link>
+              <Link className="text-decoration-none" to={homePage}>
+                Home
+              </Link>
             </li>
             <li>
-              <Link to={ourStory}>Who it works</Link>
+              <Link className="text-decoration-none" to={ourStory}>
+                Our Story
+              </Link>
             </li>
             <li>
-              <Link to={career}>Countries</Link>
+              <Link className="text-decoration-none" to={career}>
+                Careers
+              </Link>
             </li>
           </ul>
           <a href={link} className="get-help">

@@ -227,6 +227,32 @@
       }
     }
   }
+
+  .career-bottom {
+    margin-top: 10rem;
+
+    .value-heading {
+      max-width: 50rem;
+      margin: 0 auto;
+    }
+
+    .career-values {
+      p {
+        margin: 5rem 2rem;
+        .value-circle {
+          display: inline-block;
+          font-size: 3rem;
+          background: $gradient-primary-v2;
+          width: 6rem;
+          height: 6rem;
+          border-radius: 50%;
+          text-align: center;
+          line-height: 6rem;
+          color: $color-white;
+        }
+      }
+    }
+  }
 }
 
 // Media Queries

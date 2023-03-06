@@ -44,6 +44,45 @@ const Career = () => {
             <img src="../img/people.jpg" className="img-fluid" alt="" />
           </div>
         </div>
+
+        {/* Career Bottom */}
+        <div className="container career-bottom">
+          <h1 className="display-1 fw-bold text-center mb-3 value-heading">
+            Our Values and Commitments
+          </h1>
+          <div className="career-values">
+            <p className="fs-2">
+              <span className="value-circle me-5">01</span>
+              <span className="l fw-bold">We act like owners - </span>
+              Relentlessly delivering for our users and spending money
+              thoughtfully.
+            </p>
+            <p className="fs-2">
+              <span className="value-circle me-5">02</span>
+              <span className="l fw-bold">
+                We embrace embarrassing honesty -{" "}
+              </span>
+              Developing ourselves to better serve others.
+            </p>
+            <p className="fs-2">
+              <span className="value-circle me-5">03</span>
+              <span className="l fw-bold">We are bias to action - </span>
+              We get first outcomes quickly, iterate and learn.
+            </p>
+            <p className="fs-2">
+              <span className="value-circle me-5">04</span>
+              <span className="l fw-bold">We strive to be better - </span>
+              We may make mistakes, but always learn from them. We lean into
+              uncomfortable conversations and support our colleagues when they
+              do the same.
+            </p>
+            <p className="fs-2">
+              <span className="value-circle me-5">05</span>
+              <span className="l fw-bold">We are inclusive - </span>
+              To better reflect and serve our customers.
+            </p>
+          </div>
+        </div>
       </div>
     </Layout>
   );
