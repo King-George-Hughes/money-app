@@ -39,7 +39,7 @@ const OurStory = () => {
         </div>
 
         {/* Career Bottom */}
-        <div className="container our-story-bottom">
+        <div className="container our-story-middle py-5">
           <h1 className="display-1 fw-bold text-center mb-3 value-heading">
             Trusted by over 130 Countries and Over 1 million users
           </h1>
@@ -62,6 +62,42 @@ const OurStory = () => {
               migrants’ impact on prosperity, at home and abroad. Our purpose is
               to unlock the prosperity of cross-border communities through
               finance and technology.
+            </p>
+          </div>
+        </div>
+
+        {/* Career Bottom */}
+        <div className="container our-story-bottom mt-5 py-5">
+          <h1 className="display-1 fw-bold text-center mb-3 value-heading">
+            Our leadership team
+          </h1>
+          <div className="our-story-values">
+            <p
+              className="fs-2 text-center my-5 "
+              style={{ maxWidth: 900, margin: "0 auto" }}
+            >
+              Created by two engineers from Brown University, Sendwave is
+              supported by an outstanding team of compliance officers,
+              international bankers, fintech gurus and operational experts from
+              Citibank, Chase, Google, Uber, Western Union and other companies.
+            </p>
+          </div>
+        </div>
+
+        {/* Career Bottom */}
+        <div className="container our-story-investors mt-5 py-5">
+          <h1 className="display-1 fw-bold text-center mb-3 value-heading">
+            Our investors
+          </h1>
+          <div className="our-story-values">
+            <p
+              className="fs-2 text-center my-5 "
+              style={{ maxWidth: 900, margin: "0 auto" }}
+            >
+              We’re proud to have earned the backing, trust and continued
+              support of the Y Combinator, Founders Fund and Khosla Ventures,
+              all of whom share our passion for creating technology that can
+              make a lasting difference in people’s lives.
             </p>
           </div>
         </div>

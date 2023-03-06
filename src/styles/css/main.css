@@ -493,17 +493,17 @@ Slider
      object-fit: cover;
   border-radius: 0.5rem 5rem 5rem 5rem;
 }
-.our-story .our-story-bottom {
+.our-story .our-story-middle {
   margin-top: 10rem;
 }
-.our-story .our-story-bottom .value-heading {
+.our-story .our-story-middle .value-heading {
   max-width: 80rem;
   margin: 0 auto;
 }
-.our-story .our-story-bottom .our-story-values p {
+.our-story .our-story-middle .our-story-values p {
   margin: 5rem 2rem;
 }
-.our-story .our-story-bottom .our-story-values p .value-circle {
+.our-story .our-story-middle .our-story-values p .value-circle {
   display: inline-block;
   font-size: 3rem;
   background: linear-gradient(to top left, #16876b, #39b385);
