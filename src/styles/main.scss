@@ -255,6 +255,116 @@
   }
 }
 
+// Story Page
+// Career Page
+.our-story {
+  width: 100%;
+  // Career first
+  .our-story-top {
+    padding-top: 10rem;
+    background: $gradient-primary-v2;
+    position: relative;
+
+    img {
+      width: 100%;
+    }
+
+    .container {
+      text-align: center;
+      padding: 10rem 0;
+
+      h1 {
+        color: $color-white;
+        font-size: 7rem;
+        font-weight: bold;
+      }
+
+      p {
+        color: $color-white;
+        font-size: 2rem;
+        max-width: 50rem;
+        margin: 0 auto;
+        margin-top: 4rem;
+        padding: 0 1.5rem;
+      }
+    }
+  }
+
+  .our-story-container {
+    width: 100%;
+    // Career Second
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    display: grid;
+    gap: 8rem;
+    grid-auto-flow: 1fr;
+    grid-template-areas: "one" "two";
+
+    // Redefine
+    grid-template-areas: "one two" "one two";
+
+    .our-story--section-1 {
+      grid-area: one;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+
+      h2 {
+        font-size: 5rem;
+        font-weight: bold;
+        margin-bottom: 4rem;
+      }
+
+      p {
+        font-size: 2rem;
+        color: $color-black-light;
+        margin: 2rem 0;
+        letter-spacing: 0.1rem;
+        max-width: 60rem;
+      }
+    }
+    .our-story--section-2 {
+      grid-area: two;
+      // display: flex;
+
+      img {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 40rem;
+        object-fit: cover;
+        border-radius: 0.5rem 5rem 5rem 5rem;
+      }
+    }
+  }
+
+  .our-story-bottom {
+    margin-top: 10rem;
+
+    .value-heading {
+      max-width: 80rem;
+      margin: 0 auto;
+    }
+
+    .our-story-values {
+      p {
+        margin: 5rem 2rem;
+        .value-circle {
+          display: inline-block;
+          font-size: 3rem;
+          background: $gradient-primary-v2;
+          width: 6rem;
+          height: 6rem;
+          border-radius: 50%;
+          text-align: center;
+          line-height: 6rem;
+          color: $color-white;
+        }
+      }
+    }
+  }
+}
+
 // Media Queries
 @media (max-width: 50em) {
   // Navigation
@@ -319,6 +429,47 @@
 
       .career--section-1 {
         grid-area: one;
+
+        h2 {
+          font-size: 3rem;
+          margin-bottom: 2rem;
+        }
+
+        p {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
+  // Our Story
+  .our-story {
+    .our-story-top {
+      padding-top: 10rem;
+
+      .container {
+        padding: 3rem 0;
+
+        h1 {
+          font-size: 2.5rem;
+        }
+
+        p {
+          font-size: 1.5rem;
+        }
+      }
+    }
+
+    .our-story-container {
+      grid-template-areas: "two" "one";
+
+      .our-story--section-1 {
+        grid-area: one;
+
+        h5 {
+          margin: 0;
+          padding: 0;
+        }
 
         h2 {
           font-size: 3rem;

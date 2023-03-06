@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUser } from "@fortawesome/free-regular-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faUser } from "@fortawesome/free-regular-svg-icons";
 
 const Navbar = () => {
   const homePage = "/";
@@ -26,7 +26,9 @@ const Navbar = () => {
         <div className="top-menu">
           <ul className="list-unstyled ul-1">
             <li>
-              <Link className="link current">Home</Link>
+              <Link to={homePage} className="link current">
+                Home
+              </Link>
             </li>
             <li>
               <Link to={ourStory} className="link">

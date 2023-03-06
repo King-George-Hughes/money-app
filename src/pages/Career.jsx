@@ -16,7 +16,7 @@ const Career = () => {
         {/* Career Second */}
         <div className="container career-container">
           <div className="career--section-1">
-            <h2>Join us at kudiExpress</h2>
+            <h2>Join us at kudiXpress</h2>
             <p>
               Our team of over 1600+ employees is fully distributed across the
               world. We are working from coffee shops, homes, and co-working
