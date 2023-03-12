@@ -18,30 +18,37 @@ const Navbar = () => {
   return (
     <nav className="nav">
       <div className="container">
-        <Link to={homePage} className="logo">
+        {/* <Link to={homePage} className="logo"> */}
+        <a href={homePage} className="logo">
           kudiXpress
-        </Link>
+        </a>
 
         {/* Nav */}
         <div className="top-menu">
           <ul className="list-unstyled ul-1">
             <li>
-              <Link to={homePage} className="link current">
+              {/* <Link to={homePage} className="link current"> */}
+              <a href={homePage} className="link current">
                 Home
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to={ourStory} className="link">
+              {/* <Link to={ourStory} className="link"> */}
+              <a href={ourStory} className="link">
                 Our Story
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to={career} className="link">
+              {/* <Link to={career} className="link"> */}
+              <a href={career} className="link">
                 Careers
-              </Link>
+              </a>
             </li>
             <li>
-              <Link className="link">Get Help</Link>
+              {/* <Link className="link">Get Help</Link> */}
+              <a href={link} className="link">
+                Get Help
+              </a>
             </li>
             {/* <li>
               <FontAwesomeIcon icon={faUser} />
@@ -58,19 +65,22 @@ const Navbar = () => {
         <div className={toggle ? "menu" : "menu active"}>
           <ul>
             <li>
-              <Link className="text-decoration-none" to={homePage}>
+              {/* <Link className="text-decoration-none" to={homePage}> */}
+              <a className="text-decoration-none" href={homePage}>
                 Home
-              </Link>
+              </a>
             </li>
             <li>
-              <Link className="text-decoration-none" to={ourStory}>
+              {/* <Link className="text-decoration-none" to={ourStory}> */}
+              <a className="text-decoration-none" href={ourStory}>
                 Our Story
-              </Link>
+              </a>
             </li>
             <li>
-              <Link className="text-decoration-none" to={career}>
+              {/* <Link className="text-decoration-none" to={career}> */}
+              <a className="text-decoration-none" href={career}>
                 Careers
-              </Link>
+              </a>
             </li>
           </ul>
           <a href={link} className="get-help">
