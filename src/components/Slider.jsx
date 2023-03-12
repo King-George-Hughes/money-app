@@ -68,10 +68,10 @@ const Slider = () => {
         })}
 
         <button className="slider-btn btn--left" onClick={prevSlide}>
-          <FontAwesomeIcon icon={faArrowLeft} className="text-black" />
+          <FontAwesomeIcon icon={faArrowLeft} className="text-light" />
         </button>
         <button className="slider-btn btn--right" onClick={nextSlide}>
-          <FontAwesomeIcon icon={faArrowRight} className="text-black" />
+          <FontAwesomeIcon icon={faArrowRight} className="text-light" />
         </button>
       </div>
     </>
