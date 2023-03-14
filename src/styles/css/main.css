@@ -26,8 +26,11 @@ html {
   position: relative;
 }
 .nav .container .logo {
-  font-size: 2rem;
   z-index: 10;
+}
+.nav .container .logo img {
+  width: 10rem;
+  height: 10rem;
 }
 .nav .container .top-menu {
   max-width: 80rem;

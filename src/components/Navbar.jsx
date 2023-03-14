@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="container">
         {/* <Link to={homePage} className="logo"> */}
         <a href={homePage} className="logo">
-          kudiXpress
+          <img src="../img/logo.png" alt="" />
         </a>
 
         {/* Nav */}
