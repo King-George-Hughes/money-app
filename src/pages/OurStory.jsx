@@ -76,7 +76,7 @@ const OurStory = () => {
               className="fs-2 text-center my-5 "
               style={{ maxWidth: 900, margin: "0 auto" }}
             >
-              Created by two engineers from Brown University, Sendwave is
+              Created by two engineers from Brown University, kudiXpress is
               supported by an outstanding team of compliance officers,
               international bankers, fintech gurus and operational experts from
               Citibank, Chase, Google, Uber, Western Union and other companies.
