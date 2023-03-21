@@ -34,7 +34,7 @@ const OurStory = () => {
             </p>
           </div>
           <div className="our-story--section-2">
-            <img src="../img/fone.png" className="img-fluid" alt="" />
+            <img src="../img/onboarding2.jpg" className="img-fluid" alt="" />
           </div>
         </div>
 

@@ -42,7 +42,7 @@ const Home = () => {
             </p>
           </div>
           <div className="hero--section-2">
-            <img src="./img/fone.png" alt="" />
+            <img src="./img/device.png" alt="" />
           </div>
         </div>
       </div>
@@ -51,7 +51,7 @@ const Home = () => {
       <div className="tuto">
         <div className="container tuto-container">
           <div className="tuto--section-1">
-            <img src="./img/fone.png" alt="" />
+            <img src="./img/onboarding.jpg" alt="" />
           </div>
           <div className="tuto--section-2">{cards}</div>
         </div>

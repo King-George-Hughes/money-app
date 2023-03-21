@@ -51,14 +51,14 @@ html {
   transition: 0.3s;
 }
 .nav .container .top-menu .ul-1 li .link:hover, .nav .container .top-menu .ul-1 li .link.current {
-  color: #222;
-  border-bottom: 0.2rem solid #222;
+  color: #111;
+  border-bottom: 0.2rem solid #111;
   padding-bottom: 0.5rem;
 }
 .nav .container .top-menu .ul-2 .link {
   font-size: 2rem;
   margin-left: 4rem;
-  background: linear-gradient(to top left, #16876b, #39b385);
+  background: linear-gradient(to top left, #0a6375, #08778d);
   border: none;
   padding: 1.2rem 2rem;
 }
@@ -104,8 +104,7 @@ html {
   background: url("./../../images/menu.png");
   background-repeat: no-repeat;
   background-size: cover;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   filter: invert(1);
   cursor: pointer;
   display: none;
@@ -131,9 +130,8 @@ Slider
   height: 100%;
   width: 100%;
   z-index: -1;
-  opacity: 0.7;
   transform: skewY(-5deg);
-  background: linear-gradient(to top left, #16876b, #39b385);
+  background: linear-gradient(to top left, #0a6375, #08778d);
 }
 .slider .slider-container {
   padding-top: 4rem;
@@ -207,7 +205,7 @@ Slider
   text-align: center;
   border-radius: 50%;
   border: none;
-  background: linear-gradient(to top left, #16876b, #39b385);
+  background: linear-gradient(to top left, #0a6375, #08778d);
   box-shadow: 0 5px 5px #aaa;
 }
 .slider .slider-article-card .section-center .slider-btn.btn--left {
@@ -218,7 +216,7 @@ Slider
 }
 
 .footer {
-  background: linear-gradient(to top left, #16876b, #39b385);
+  background: linear-gradient(to top left, #0a6375, #08778d);
   margin-top: 8rem;
   color: #fff;
 }
@@ -238,9 +236,8 @@ Slider
   height: 90%;
   width: 100%;
   z-index: -1;
-  opacity: 0.7;
   transform: skewY(-5deg);
-  background: linear-gradient(to top left, #16876b, #39b385);
+  background: linear-gradient(to top left, #0a6375, #08778d);
 }
 .hero .hero-container {
   width: 100%;
@@ -260,7 +257,7 @@ Slider
 .hero .hero--section-1 .title {
   font-size: 6rem;
   font-weight: bold;
-  color: #222;
+  color: #111827;
   line-height: 6rem;
   margin-bottom: 4rem;
   max-width: 50rem;
@@ -275,6 +272,7 @@ Slider
   text-align: center;
 }
 .hero .hero--section-2 img {
+  margin-top: 5rem;
   width: 100%;
   max-width: 450px;
 }
@@ -337,7 +335,7 @@ Slider
   justify-content: center;
 }
 .story .story-container .story--section-1 .btn-story {
-  background: linear-gradient(to top left, #16876b, #39b385);
+  background: linear-gradient(to top left, #0a6375, #08778d);
   border: none;
 }
 .story .story-container .story--section-2 {
@@ -355,7 +353,7 @@ Slider
 }
 .career .career-top {
   padding-top: 10rem;
-  background: linear-gradient(to top left, #16876b, #39b385);
+  background: linear-gradient(to top left, #0a6375, #08778d);
   position: relative;
 }
 .career .career-top img {
@@ -402,8 +400,7 @@ Slider
 .career .career-container .career--section-2 img {
   width: 100%;
   max-width: 60rem;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 0.5rem 5rem 5rem 5rem;
 }
 .career .career-bottom {
@@ -419,7 +416,7 @@ Slider
 .career .career-bottom .career-values p .value-circle {
   display: inline-block;
   font-size: 3rem;
-  background: linear-gradient(to top left, #16876b, #39b385);
+  background: linear-gradient(to top left, #0a6375, #08778d);
   width: 6rem;
   height: 6rem;
   border-radius: 50%;
@@ -433,7 +430,7 @@ Slider
 }
 .our-story .our-story-top {
   padding-top: 10rem;
-  background: linear-gradient(to top left, #16876b, #39b385);
+  background: linear-gradient(to top left, #0a6375, #08778d);
   position: relative;
 }
 .our-story .our-story-top img {
@@ -492,8 +489,7 @@ Slider
   margin: 0 auto;
   width: 100%;
   max-width: 40rem;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 0.5rem 5rem 5rem 5rem;
 }
 .our-story .our-story-middle {
@@ -509,7 +505,7 @@ Slider
 .our-story .our-story-middle .our-story-values p .value-circle {
   display: inline-block;
   font-size: 3rem;
-  background: linear-gradient(to top left, #16876b, #39b385);
+  background: linear-gradient(to top left, #0a6375, #08778d);
   width: 6rem;
   height: 6rem;
   border-radius: 50%;
@@ -592,4 +588,4 @@ Slider
   .our-story .our-story-container .our-story--section-1 p {
     font-size: 1.5rem;
   }
-}/*# sourceMappingURL=main.css.map */
+}
