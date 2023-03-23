@@ -12,9 +12,8 @@ const OurStory = () => {
             <p>
               kudiXpress has been on a journey of ensuring that we send money to
               people and not fees by ensuring that we offer low fees and high
-              guarantees to our users. Founded in 2014, we have been at the
-              forefront of ensuring that sending money is as easy as sending a
-              text message.
+              guarantees to our users. We have been at the forefront of ensuring
+              that sending money is as easy as sending a text message.
             </p>
           </div>
           <img src="../img/unknown.svg" className="img-fluid" alt="" />
@@ -23,81 +22,51 @@ const OurStory = () => {
         {/* Career Second */}
         <div className="container our-story-container">
           <div className="our-story--section-1">
-            <h5 className="text-success fw-bold fs-1 my-5 pb-3">OUR STORY</h5>
-            <h2>No hassles, no lines, no stress…</h2>
+            <h5
+              className=" fw-bold fs-1 my-5 pb-3"
+              style={{ color: "#0a6375" }}
+            >
+              OUR STORY
+            </h5>
+            <h2>This is our story…</h2>
             <p>
-              Most recently, we joined forces with WordRemit and together, we
-              formed the Zepz Group. We represent brands that disrupted an
-              industry previously dominated by offline legacy players by taking
-              international money transfers online - making global digital
-              payments fairer, faster, and more flexible.
+              At kudixpress, our story is one of passion, innovation, and a
+              drive to make a difference in the lives of families and
+              communities in Africa.
+            </p>
+            <p>
+              Our journey began when the founders experienced firsthand the
+              challenges of sending money to Africa. They saw how traditional
+              remittance methods were slow, expensive, and often unreliable.
+              They knew there had to be a better way.
+            </p>
+            <p>
+              That's when they set out to develop a remittance app that would
+              make sending money to Africa fast, secure, and affordable. They
+              worked tirelessly, researching the best technology, partnering
+              with financial institutions, and engaging with communities in
+              Africa to understand their financial needs.
+            </p>
+            <p>
+              Today, kudixpress is a leading remittance app, trusted by over
+              100,000 users. We're proud to be authorized to transmit money in
+              the US and we're constantly working to improve our services and
+              expand our reach. But our journey doesn't stop there. We remain
+              committed to our mission of making a positive impact on families
+              and communities in Africa. We believe that access to financial
+              services is a fundamental right, and we're dedicated to making
+              sending money to Africa as easy and affordable as possible.
             </p>
           </div>
-          <div className="our-story--section-2">
+          <div className="our-story--section-2 text-center">
             <img src="../img/onboarding2.jpg" className="img-fluid" alt="" />
-          </div>
-        </div>
-
-        {/* Career Bottom */}
-        <div className="container our-story-middle py-5">
-          <h1 className="display-1 fw-bold text-center mb-3 value-heading">
-            Trusted by over 130 Countries and Over 1 million users
-          </h1>
-          <div className="our-story-values">
             <p
-              className="fs-2 text-center my-5"
-              style={{ maxWidth: 900, margin: "0 auto" }}
+              className="fs-3 fw-bold text-center alert-primary p-5 mt-5"
+              style={{ borderRadius: 7 }}
             >
-              Our brands helped cross-border communities send over $15bn from 50
-              countries, to recipients in 130 countries in 2022. We operate over
-              5,000 money transfer corridors worldwide and employ over 1,600
-              people globally.
-            </p>
-            <p
-              className="fs-2 text-center my-5"
-              style={{ maxWidth: 900, margin: "0 auto" }}
-            >
-              Zepz is a remote-first employer, with team members located across
-              six continents. Our vision is to create a world that celebrates
-              migrants’ impact on prosperity, at home and abroad. Our purpose is
-              to unlock the prosperity of cross-border communities through
-              finance and technology.
-            </p>
-          </div>
-        </div>
-
-        {/* Career Bottom */}
-        <div className="container our-story-bottom mt-5 py-5">
-          <h1 className="display-1 fw-bold text-center mb-3 value-heading">
-            Our leadership team
-          </h1>
-          <div className="our-story-values">
-            <p
-              className="fs-2 text-center my-5 "
-              style={{ maxWidth: 900, margin: "0 auto" }}
-            >
-              Created by two engineers from Brown University, kudiXpress is
-              supported by an outstanding team of compliance officers,
-              international bankers, fintech gurus and operational experts from
-              Citibank, Chase, Google, Uber, Western Union and other companies.
-            </p>
-          </div>
-        </div>
-
-        {/* Career Bottom */}
-        <div className="container our-story-investors mt-5 py-5">
-          <h1 className="display-1 fw-bold text-center mb-3 value-heading">
-            Our investors
-          </h1>
-          <div className="our-story-values">
-            <p
-              className="fs-2 text-center my-5 "
-              style={{ maxWidth: 900, margin: "0 auto" }}
-            >
-              We’re proud to have earned the backing, trust and continued
-              support of the Y Combinator, Founders Fund and Khosla Ventures,
-              all of whom share our passion for creating technology that can
-              make a lasting difference in people’s lives.
+              Join us on our journey and experience the convenience and security
+              of sending money with kudixpress. We can't wait to be a part of
+              your story!
             </p>
           </div>
         </div>

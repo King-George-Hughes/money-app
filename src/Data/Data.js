@@ -1,31 +1,31 @@
 export const tutorials = [
   {
     id: 1,
-    title: "Easy to sign up",
+    title: "Sign Up in Seconds and Start Sending",
     img: "./img/write-ico.svg",
     message:
-      "Link your debit card, verify your identity and be sending in minutes.",
+      "Link your debit card, verify your identity, and start sending money to your loved ones in Ghana in minutes!",
   },
   {
     id: 2,
-    title: "24/7 support",
+    title: "24/7 Support in Multiple Languages",
     img: "./img/call-ico.svg",
     message:
-      "Our phone lines are open 24/7 in multiple languages should you need it.",
+      "Need help? Our support team is available 24/7 in multiple languages, so you can get the assistance you need anytime, anywhere.",
   },
   {
     id: 3,
-    title: "Fast & convenient money transfers",
+    title: "Send Money in Seconds from Your Phone",
     img: "./img/money-ico.svg",
     message:
-      "Skip the line and send money from your phone to your loved ones in seconds.",
+      "Say goodbye to delays and complicated forms. With kudixpress, you can send money to Africa in seconds, right from your phone!",
   },
   {
     id: 4,
-    title: "Trusted and legitimate",
+    title: "Trust us to Get Your Money to Africa",
     img: "./img/lock-ico.svg",
     message:
-      "Trusted by over 800k users, Sendwave is operated by Chime Inc. and is authorized to transmit money in the US, Canada, the UK and the EU.",
+      "We've earned the trust of over 100,000 users and are operated by Machnet Inc. Rest assured that our remittance app is authorized to transmit money in the US.",
   },
 ];
 

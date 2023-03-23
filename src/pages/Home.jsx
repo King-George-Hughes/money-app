@@ -53,7 +53,17 @@ const Home = () => {
           <div className="tuto--section-1">
             <img src="./img/onboarding.jpg" alt="" />
           </div>
-          <div className="tuto--section-2">{cards}</div>
+          <div className="tuto--section-2">
+            {cards}
+            <p
+              className="fs-3 fw-bold text-center alert-primary p-5"
+              style={{ borderRadius: 7 }}
+            >
+              Join the thousands of happy customers who are using kudixpress to
+              send money to Ghana. Sign up now and experience fast, convenient,
+              and secure money transfers to your loved ones!
+            </p>
+          </div>
         </div>
       </div>
 
