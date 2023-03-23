@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faUser } from "@fortawesome/free-regular-svg-icons";
 
@@ -21,49 +21,72 @@ const Navbar = () => {
   return (
     <nav className="nav">
       <div className="container">
-        {/* <Link to={homePage} className="logo"> */}
-        <a href={homePage} className="logo">
+        <NavLink to={homePage} className="logo">
           <img src="../img/KudiXpress.png" alt="" />
-        </a>
+        </NavLink>
 
         {/* Nav */}
         <div className="top-menu">
           <ul className="list-unstyled ul-1">
             <li>
-              {/* <Link to={homePage} className="link current"> */}
-              <a href={homePage} className="link current">
+              <NavLink
+                to={homePage}
+                className={({ isActive }) =>
+                  isActive ? "link current" : "link"
+                }
+              >
                 Home
-              </a>
+              </NavLink>
             </li>
             <li>
-              {/* <Link to={homePage} className="link current"> */}
-              <a href={aboutUs} className="link">
+              <NavLink
+                to={aboutUs}
+                className={({ isActive }) =>
+                  isActive ? "link current" : "link"
+                }
+              >
                 About Us
-              </a>
+              </NavLink>
             </li>
             <li>
-              {/* <Link to={homePage} className="link current"> */}
-              <a href={howItWorks} className="link">
+              <NavLink
+                to={howItWorks}
+                className={({ isActive }) =>
+                  isActive ? "link current" : "link"
+                }
+              >
                 How It Works
-              </a>
+              </NavLink>
             </li>
             <li>
-              {/* <Link to={ourStory} className="link"> */}
-              <a href={ourStory} className="link">
+              <NavLink
+                to={ourStory}
+                className={({ isActive }) =>
+                  isActive ? "link current" : "link"
+                }
+              >
                 Our Story
-              </a>
+              </NavLink>
             </li>
             <li>
-              {/* <Link to={career} className="link"> */}
-              <a href={career} className="link">
+              <NavLink
+                to={career}
+                className={({ isActive }) =>
+                  isActive ? "link current" : "link"
+                }
+              >
                 Careers
-              </a>
+              </NavLink>
             </li>
             <li>
-              {/* <Link className="link">Get Help</Link> */}
-              <a href={contactUs} className="link">
+              <NavLink
+                to={contactUs}
+                className={({ isActive }) =>
+                  isActive ? "link current" : "link"
+                }
+              >
                 Contact Us
-              </a>
+              </NavLink>
             </li>
             {/* <li>
               <FontAwesomeIcon icon={faUser} />
@@ -81,7 +104,7 @@ const Navbar = () => {
           <ul>
             <li>
               {/* <Link className="text-decoration-none" to={homePage}> */}
-              <a className="text-decoration-none" href={homePage}>
+              <a href={homePage} className="text-decoration-none">
                 Home
               </a>
             </li>
