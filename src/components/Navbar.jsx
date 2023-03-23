@@ -133,15 +133,17 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-          <a href={link} className="get-help">
+          {/* <a href={link} className="get-help">
             Get Help
-          </a>
-          <a href={link}>
-            <img src="./img/ios-store.png" alt="" />
-          </a>
-          <a href={link}>
-            <img src="./img/android-store.png" alt="" />
-          </a>
+          </a> */}
+          <div className="mb-4">
+            <a href={link} className="m-2">
+              <img src="./img/ios-store.png" alt="" />
+            </a>
+            <a href={link} className="m-2">
+              <img src="./img/android-store.png" alt="" />
+            </a>
+          </div>
         </div>
         <div className="toggle" onClick={toggleMenu}></div>
       </div>
