@@ -29,7 +29,7 @@
       justify-content: space-between;
 
       .ul-1 {
-        font-size: 2rem;
+        font-size: 1.6rem;
 
         li {
           display: inline-block;
@@ -42,9 +42,11 @@
 
             &:hover,
             &.current {
-              color: $color-black;
-              border-bottom: 0.2rem solid $color-black-light;
               padding-bottom: 0.2rem;
+              background: $newSecondaryColor;
+              padding: 0.5rem 1rem;
+              color: $color-white;
+              border-radius: 0.5rem;
             }
           }
         }
