@@ -18,8 +18,7 @@
       z-index: 10;
 
       img {
-        width: 10rem;
-        height: 10rem;
+        width: 12rem;
       }
     }
 
@@ -34,7 +33,7 @@
 
         li {
           display: inline-block;
-          margin: 2rem;
+          margin: 1rem;
 
           .link {
             text-decoration: none;
@@ -44,8 +43,8 @@
             &:hover,
             &.current {
               color: $color-black;
-              border-bottom: 0.2rem solid $color-black;
-              padding-bottom: 0.5rem;
+              border-bottom: 0.2rem solid $color-black-light;
+              padding-bottom: 0.2rem;
             }
           }
         }
@@ -54,7 +53,6 @@
       .ul-2 {
         .link {
           font-size: 2rem;
-          margin-left: 4rem;
           background: $gradient-primary-v2;
           border: none;
           padding: 1.2rem 2rem;

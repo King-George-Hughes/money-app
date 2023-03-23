@@ -7,6 +7,9 @@ const Navbar = () => {
   const homePage = "/";
   const ourStory = "/our-story";
   const career = "/careers";
+  const aboutUs = "/about-us";
+  const howItWorks = "/how-it-works";
+  const contactUs = "/contact-us";
   const link = "#";
 
   const [toggle, setToggle] = useState(true);
@@ -20,7 +23,7 @@ const Navbar = () => {
       <div className="container">
         {/* <Link to={homePage} className="logo"> */}
         <a href={homePage} className="logo">
-          <img src="../img/logo.png" alt="" />
+          <img src="../img/KudiXpress.png" alt="" />
         </a>
 
         {/* Nav */}
@@ -30,6 +33,18 @@ const Navbar = () => {
               {/* <Link to={homePage} className="link current"> */}
               <a href={homePage} className="link current">
                 Home
+              </a>
+            </li>
+            <li>
+              {/* <Link to={homePage} className="link current"> */}
+              <a href={aboutUs} className="link">
+                About Us
+              </a>
+            </li>
+            <li>
+              {/* <Link to={homePage} className="link current"> */}
+              <a href={howItWorks} className="link">
+                How It Works
               </a>
             </li>
             <li>
@@ -46,8 +61,8 @@ const Navbar = () => {
             </li>
             <li>
               {/* <Link className="link">Get Help</Link> */}
-              <a href={link} className="link">
-                Get Help
+              <a href={contactUs} className="link">
+                Contact Us
               </a>
             </li>
             {/* <li>
