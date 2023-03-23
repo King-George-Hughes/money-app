@@ -6,6 +6,12 @@
 @import "slider";
 // Footer
 @import "footer";
+// Fonts
+@import "fonts";
+
+html {
+  font-family: "Source Sans Pro", sans-serif;
+}
 
 // Home
 // Hero
@@ -47,6 +53,8 @@
     justify-content: center;
 
     .title {
+      // font-family: "Source Sans Pro", sans-serif;
+      font-family: "Pacifico", cursive;
       font-size: 6rem;
       font-weight: bold;
       // color: $color-black;
