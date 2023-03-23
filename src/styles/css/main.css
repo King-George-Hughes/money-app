@@ -51,10 +51,8 @@ html {
 }
 .nav .container .top-menu .ul-1 li .link:hover, .nav .container .top-menu .ul-1 li .link.current {
   padding-bottom: 0.2rem;
-  background: #004289;
-  padding: 0.5rem 1rem;
-  color: #fff;
-  border-radius: 0.5rem;
+  border-bottom: 0.3rem solid #004289;
+  color: #004289;
 }
 .nav .container .top-menu .ul-2 .link {
   font-size: 2rem;

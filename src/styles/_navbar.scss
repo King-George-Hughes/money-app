@@ -43,10 +43,8 @@
             &:hover,
             &.current {
               padding-bottom: 0.2rem;
-              background: $newSecondaryColor;
-              padding: 0.5rem 1rem;
-              color: $color-white;
-              border-radius: 0.5rem;
+              border-bottom: 0.3rem solid $newSecondaryColor;
+              color: $newSecondaryColor;
             }
           }
         }
