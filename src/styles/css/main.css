@@ -65,7 +65,7 @@ html {
 .nav .container .menu {
   position: absolute;
   width: 100%;
-  height: 340px;
+  max-height: 440px;
   top: -350px;
   left: 0;
   padding-bottom: 1.2rem;
@@ -81,12 +81,19 @@ html {
   list-style-type: none;
 }
 .nav .container .menu ul li {
+  text-align: center;
   display: inline-block;
-  margin-bottom: 10px;
+  margin-bottom: 0.5rem;
   font-size: 1.6rem;
-  border-bottom: 1px solid #aaa;
   width: 100%;
   padding: 0.4rem;
+}
+.nav .container .menu ul li a {
+  text-decoration: none;
+  color: #004289;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  border-bottom: 1px solid #aaa;
 }
 .nav .container .menu .get-help {
   text-decoration: none;
@@ -520,6 +527,9 @@ html {
 }
 
 @media (max-width: 50em) {
+  .nav .container .logo img {
+    width: 9rem;
+  }
   .nav .container .toggle {
     display: inline-block;
   }

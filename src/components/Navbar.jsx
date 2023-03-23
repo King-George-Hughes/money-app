@@ -103,21 +103,33 @@ const Navbar = () => {
         <div className={toggle ? "menu" : "menu active"}>
           <ul>
             <li>
-              {/* <Link className="text-decoration-none" to={homePage}> */}
               <a href={homePage} className="text-decoration-none">
                 Home
               </a>
             </li>
             <li>
-              {/* <Link className="text-decoration-none" to={ourStory}> */}
+              <a href={aboutUs} className="text-decoration-none">
+                About Us
+              </a>
+            </li>
+            <li>
+              <a href={howItWorks} className="text-decoration-none">
+                How We Work
+              </a>
+            </li>
+            <li>
               <a className="text-decoration-none" href={ourStory}>
                 Our Story
               </a>
             </li>
             <li>
-              {/* <Link className="text-decoration-none" to={career}> */}
               <a className="text-decoration-none" href={career}>
                 Careers
+              </a>
+            </li>
+            <li>
+              <a className="text-decoration-none" href={contactUs}>
+                Contact Us
               </a>
             </li>
           </ul>

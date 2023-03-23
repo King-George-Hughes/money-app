@@ -379,6 +379,11 @@ html {
   // Navigation
   .nav {
     .container {
+      .logo {
+        img {
+          width: 9rem;
+        }
+      }
       .toggle {
         display: inline-block;
       }
