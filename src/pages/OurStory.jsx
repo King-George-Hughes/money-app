@@ -16,7 +16,12 @@ const OurStory = () => {
               that sending money is as easy as sending a text message.
             </p>
           </div>
-          <img src="../img/unknown.svg" className="img-fluid" alt="" />
+          <img
+            src="../img/unknown.svg"
+            className="img-fluid"
+            alt=""
+            style={{ boxShadow: "0px 5px 5px #fff" }}
+          />
         </div>
 
         {/* Career Second */}
