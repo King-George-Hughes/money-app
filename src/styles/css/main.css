@@ -17,7 +17,7 @@ html {
   height: 80px;
   background: #fff;
   z-index: 10;
-  box-shadow: 0 2px 10px #058666;
+  box-shadow: 0 2px 10px #08778d;
   position: fixed;
 }
 .nav .container {
@@ -269,7 +269,7 @@ html {
   font-family: "Pacifico", cursive;
   font-size: 6rem;
   font-weight: bold;
-  color: #111827;
+  color: #fff;
   line-height: 6rem;
   margin-bottom: 4rem;
   max-width: 50rem;
@@ -548,6 +548,28 @@ html {
   }
   .tuto .tuto-container {
     grid-template-areas: "one" "two";
+  }
+  .slider .slider-container h1 {
+    font-size: 3rem;
+  }
+  .slider .slider-article-card .section-center {
+    height: 41rem;
+    max-height: 50rem;
+    max-width: 80rem;
+  }
+  .slider .slider-article-card .section-center article .person-img {
+    width: 9rem;
+    height: 9rem;
+    margin: 2rem auto;
+  }
+  .slider .slider-article-card .section-center article .slider--rating {
+    max-width: 13rem;
+    margin: 1rem auto;
+  }
+  .slider .slider-article-card .section-center .slider-btn {
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.5rem;
   }
   .story .story-container {
     grid-template-areas: "one" "two";

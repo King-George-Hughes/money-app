@@ -58,7 +58,8 @@ html {
       font-size: 6rem;
       font-weight: bold;
       // color: $color-black;
-      color: $newColor;
+      color: $color-white;
+      // letter-spacing: 0.2rem;
       line-height: 6rem;
       margin-bottom: 4rem;
       max-width: 50rem;
@@ -414,6 +415,43 @@ html {
   .tuto {
     .tuto-container {
       grid-template-areas: "one" "two";
+    }
+  }
+
+  // Slider
+  .slider {
+    .slider-container {
+      h1 {
+        font-size: 3rem;
+        // color: $color-white;
+      }
+    }
+
+    .slider-article-card {
+      .section-center {
+        height: 41rem;
+        max-height: 50rem;
+        max-width: 80rem;
+
+        article {
+          .person-img {
+            width: 9rem;
+            height: 9rem;
+            margin: 2rem auto;
+          }
+
+          .slider--rating {
+            max-width: 13rem;
+            margin: 1rem auto;
+          }
+        }
+
+        .slider-btn {
+          width: 4rem;
+          height: 4rem;
+          font-size: 1.5rem;
+        }
+      }
     }
   }
 
