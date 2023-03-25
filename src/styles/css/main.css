@@ -432,17 +432,21 @@ html {
 }
 .about .about-bottom .value-heading {
   max-width: 50rem;
+  font-size: 3rem;
+  font-weight: bold;
   margin: 0 auto;
 }
 .about .about-bottom .about-values p {
   margin: 5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
 }
 .about .about-bottom .about-values p .value-circle {
   display: inline-block;
+  align-self: center;
   font-size: 3rem;
   background: linear-gradient(to top left, #0a6375, #08778d);
-  width: 6rem;
-  height: 6rem;
   border-radius: 50%;
   text-align: center;
   line-height: 6rem;

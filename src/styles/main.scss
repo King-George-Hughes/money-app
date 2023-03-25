@@ -250,18 +250,25 @@ html {
 
     .value-heading {
       max-width: 50rem;
+      font-size: 3rem;
+      font-weight: bold;
       margin: 0 auto;
     }
 
     .about-values {
       p {
         margin: 5rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+
         .value-circle {
           display: inline-block;
+          align-self: center;
           font-size: 3rem;
           background: $gradient-primary-v2;
-          width: 6rem;
-          height: 6rem;
+          // width: 6rem;
+          // height: 6rem;
           border-radius: 50%;
           text-align: center;
           line-height: 6rem;
