@@ -156,7 +156,7 @@ Slider
   margin: 0 auto;
   margin-top: 4rem;
   width: 98%;
-  height: 50rem;
+  height: 60rem;
   max-width: 80rem;
   text-align: center;
   position: relative;
@@ -652,7 +652,7 @@ html {
     grid-template-areas: "one" "two";
   }
   .slider .slider-container h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .slider .slider-article-card .section-center {
     height: 41rem;

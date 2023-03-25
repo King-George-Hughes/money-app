@@ -33,33 +33,33 @@ export const sliders = [
   {
     id: 1,
     img: "../img/pic-1.png",
-    name: "Hydee Pichai",
+    name: "Sarah T",
     country: "The Philippines",
     message:
-      "Sendwave is so fast and convenient to use when I want to send money to the Philippines. I use them because they have no fees and their rates are amazing.",
+      "I love using kudiXpress to send money to my family back in Ghana. It's so easy to use, and the fees are much lower than other remittance apps I've tried. Plus, the transfers are really fast, so my family gets the money they need quickly. I highly recommend kudiXpress!",
   },
   {
     id: 2,
     img: "../img/pic-2.png",
-    name: "Madame Sarr",
+    name: "Michael D",
     country: "Senegal",
     message:
-      "SI knew Sendwave through my brother-in-law. It is simple to use, fast, reliable and not at all expensive. I am really very satisfied with their service. I highly recommend it.",
+      "I was hesitant to use a remittance app at first, but kudiXpress really put my mind at ease. Their security measures are top-notch, and I always feel safe sending money through their platform. Plus, the customer service is amazing - they're always available to answer my questions and provide support when I need it.",
   },
   {
     id: 3,
     img: "../img/pic-3.png",
-    name: "Jean Louis",
+    name: "Tunde A",
     country: "Hati",
     message:
-      "There are so many things I love about Sendwave: It is easy, fast and there is no fee to send money.",
+      "I used to rely on traditional remittance methods to send money to my family in Ghana, but kudiXpress has completely changed the game. It's so much faster and more convenient than anything else I've tried, and the fees are much lower. I also appreciate how transparent they are about their rates and fees - it's clear that they're committed to putting the customer first.",
   },
   {
     id: 4,
     img: "../img/pic-4.png",
-    name: "Githua Mary Njer",
+    name: "Bisi O",
     country: "Ghana",
     message:
-      "Thanks Sendwave! Every time I send my sister some money in Kenya, she always says ‘God bless whoever invented this great app!’ I am grateful for your services!",
+      "I've been using kudiXpress for a few months now, and I have to say, I'm impressed. The app is really user-friendly, and the transfers are lightning-fast. I also love that they have partnerships with so many banks and mobile networks - it makes it really easy to send money to anyone in Ghana, no matter where they are or what bank they use. I highly recommend kudiXpress!",
   },
 ];

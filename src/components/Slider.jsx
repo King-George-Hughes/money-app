@@ -61,7 +61,7 @@ const Slider = () => {
                 alt=""
                 className="slider--rating mb-4"
               />
-              <p className="fs-2">{message}</p>
+              <p className="fs-2">{message.substring(0, 150) + "..."}</p>
               {/* <FaQuoteRight className="icon" /> */}
             </article>
           );
