@@ -22,6 +22,10 @@ const Footer = () => {
             <img src="../img/KudiXpress.png" width={150} alt="kudiXpress" />
           </a>
         </div>
+        <hr
+          className="bg-light my-4 mt-3 w-50"
+          style={{ margin: "0 auto", height: 2 }}
+        />
         <div className="d-md-flex align-items-center justify-content-center gap-5">
           <div>
             <p className="fs-3 fw-bold mt-5 mb-5" style={{ color: "#ddd" }}>
@@ -73,7 +77,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <hr className="bg-light my-4 mt-5" />
+        <hr className="bg-light my-4 mt-5" style={{ height: 3 }} />
         <span className="fs-4">
           Copyright © {new Date().getFullYear()} kudiXpress | All Rights
           Reserved.
