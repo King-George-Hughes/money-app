@@ -270,6 +270,8 @@ html {
   font-size: 6rem;
   font-weight: bold;
   color: #fff;
+  letter-spacing: 0.2rem;
+  -webkit-text-stroke: 0.2px #111;
   line-height: 6rem;
   margin-bottom: 4rem;
   max-width: 50rem;
