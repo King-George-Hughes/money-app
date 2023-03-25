@@ -20,7 +20,7 @@ const Footer = () => {
           <span className="me-4 fw-bold display-3">kudiXpress</span>
           {/* <img src="../img/kudiXpress.png" width={150} alt="" /> */}
           <a href={homePage} className="logo">
-            <img src="../img/KudiXpress.png" width={150} alt="" />
+            <img src="../img/KudiXpress.png" width={150} alt="kudiXpress" />
           </a>
         </div>
         <p className="fs-3 fw-bold mt-5 mb-5" style={{ color: "#ddd" }}>
