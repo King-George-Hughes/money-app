@@ -22,7 +22,7 @@ const HowItWorks = () => {
         <div className="howItWorks">
           <div className="container">
             {/* Card One */}
-            <div className="card p-5 mx-2 my-4">
+            <div className="card p-5 mx-2 my-5">
               <div className="card-subtitle">
                 <h1>
                   <FontAwesomeIcon icon={faUser} style={{ color: "#08778d" }} />{" "}
@@ -30,7 +30,7 @@ const HowItWorks = () => {
                 </h1>
               </div>
               <div className="card-body">
-                <span className="fs-4" style={{ letterSpacing: "0.1rem" }}>
+                <span className="fs-4" style={{ letterSpacing: "0.8px" }}>
                   Create an account on our app in just a few easy steps. Link
                   your debit card and verify your identity to get started. Enter
                   recipient information: Tell us who you're sending money to in
@@ -41,7 +41,7 @@ const HowItWorks = () => {
               </div>
             </div>
             {/* Card Two */}
-            <div className="card p-5 mx-2 my-4">
+            <div className="card p-5 mx-2 my-5">
               <div className="card-subtitle">
                 <h1>
                   <FontAwesomeIcon
@@ -52,7 +52,7 @@ const HowItWorks = () => {
                 </h1>
               </div>
               <div className="card-body">
-                <span className="fs-4" style={{ letterSpacing: "0.1rem" }}>
+                <span className="fs-4" style={{ letterSpacing: "0.8px" }}>
                   Use your linked debit card to pay for your transfer. Our app
                   uses state-of-the-art encryption and security measures to
                   ensure your information is safe and secure.
@@ -60,7 +60,7 @@ const HowItWorks = () => {
               </div>
             </div>
             {/* Card Three */}
-            <div className="card p-5 mx-2 my-4">
+            <div className="card p-5 mx-2 my-5">
               <div className="card-subtitle">
                 <h1>
                   <FontAwesomeIcon
@@ -71,7 +71,7 @@ const HowItWorks = () => {
                 </h1>
               </div>
               <div className="card-body">
-                <span className="fs-4" style={{ letterSpacing: "0.1rem" }}>
+                <span className="fs-4" style={{ letterSpacing: "0.8px" }}>
                   You can track your transfer on our app in real-time, so you
                   know exactly where your money is every step of the way.
                   Receive confirmation: Once your transfer is complete, we'll

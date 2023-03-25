@@ -376,7 +376,8 @@ html {
   width: 100%;
 }
 .howItWorks .container .card {
-  box-shadow: 0 2px 5px #aaa;
+  border: none;
+  box-shadow: 0 5px 5px #eee;
 }
 
 .about {

@@ -183,7 +183,8 @@ html {
 
   .container {
     .card {
-      box-shadow: 0 2px 5px $color-white-dark;
+      border: none;
+      box-shadow: 0 5px 5px #eee;
     }
   }
 }
