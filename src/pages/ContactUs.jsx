@@ -43,40 +43,38 @@ const ContactUs = () => {
               and security measures to ensure that your information is always
               safe and secure.
             </p>
-            <p>
-              <form action="form">
-                <div className="form-floating mb-3">
-                  <input
-                    type="email"
-                    className="form-control form-control-lg"
-                    id="floatingInput"
-                    placeholder="name@example.com"
-                  />
-                  <label htmlFor="floatingInput">Email Address</label>
-                </div>
-                <div className="form-floating mb-3">
-                  <input
-                    type="text"
-                    className="form-control form-control-lg"
-                    placeholder="john"
-                  ></input>
-                  <label htmlFor="floatingInput">User Name..</label>
-                </div>
-                <div className="form-floating">
-                  <textarea
-                    className="form-control"
-                    name="comment"
-                    id="floatingTextarea"
-                    placeholder="Leave a comment here"
-                    cols="30"
-                    rows="10"
-                    style={{ height: 150 }}
-                  ></textarea>
-                  <label htmlFor="floatingTextarea">Comments</label>
-                </div>
-                <button className="btn btn-primary">Submit Form</button>
-              </form>
-            </p>
+            <form action="form">
+              <div className="form-floating mb-3">
+                <input
+                  type="email"
+                  className="form-control form-control-lg"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                />
+                <label htmlFor="floatingInput">Email Address</label>
+              </div>
+              <div className="form-floating mb-3">
+                <input
+                  type="text"
+                  className="form-control form-control-lg"
+                  placeholder="john"
+                ></input>
+                <label htmlFor="floatingInput">User Name..</label>
+              </div>
+              <div className="form-floating mb-3">
+                <textarea
+                  className="form-control"
+                  name="comment"
+                  id="floatingTextarea"
+                  placeholder="Leave a comment here"
+                  cols="30"
+                  rows="10"
+                  style={{ height: 150 }}
+                ></textarea>
+                <label htmlFor="floatingTextarea">Message</label>
+              </div>
+              <button className="btn btn-primary">Send Message</button>
+            </form>
           </div>
           <div className="contact--section-2">
             <img src="../img/people.jpg" className="img-fluid" alt="" />
