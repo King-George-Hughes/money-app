@@ -3,7 +3,7 @@ import Card from "../components/Card";
 import Layout from "../layout/Layout";
 import Slider from "../components/Slider";
 import { tutorials } from "../Data/Data";
-import { Link, NavLink } from "react-router-dom";
+// import { Link, NavLink } from "react-router-dom";
 
 const Home = () => {
   const link = "#";

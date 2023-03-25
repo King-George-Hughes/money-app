@@ -21,9 +21,9 @@ const Navbar = () => {
   return (
     <nav className="nav">
       <div className="container">
-        <NavLink to={homePage} className="logo">
+        <a href={homePage} className="logo">
           <img src="../img/KudiXpress.png" alt="" />
-        </NavLink>
+        </a>
 
         {/* Nav */}
         <div className="top-menu">
