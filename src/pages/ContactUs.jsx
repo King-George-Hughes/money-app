@@ -6,8 +6,8 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faVoicemail } from "@fortawesome/free-solid-svg-icons";
 
 const ContactUs = () => {
-  const mailTo = "mailto:hughesgeorgeme@gmail.com";
-  const contactTo = "tel:+233573849441";
+  const mailTo = "mailto:info@kudixpress.org";
+  const contactTo = "tel:+1 (410) 652-7506";
 
   return (
     <Layout>
@@ -27,13 +27,13 @@ const ContactUs = () => {
             <p>
               <FontAwesomeIcon icon={faPhone} /> Phone:{" "}
               <a href={contactTo} className="text-decoration-none ">
-                +233573849441
+                +1 (410) 652-7506
               </a>
             </p>
             <p>
               <FontAwesomeIcon icon={faVoicemail} /> Email:{" "}
               <a href={mailTo} className="text-decoration-none ">
-                hughesgeorgeme@gmail.com
+                info@kudixpress.org
               </a>
             </p>
             <p className="mb-5">

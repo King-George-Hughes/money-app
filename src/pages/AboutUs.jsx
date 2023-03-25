@@ -61,33 +61,51 @@ const AboutUs = () => {
           <div className="about-values">
             <p className="fs-2">
               <span className="value-circle me-5">01</span>
-              <span className="l fw-bold">We act like owners - </span>
-              Relentlessly delivering for our users and spending money
-              thoughtfully.
+              <span className="l fw-bold">Customer Focus - </span>
+              We always put our customers first, and are committed to providing
+              the best possible remittance experience. Accessibility: We believe
+              that everyone should have access to affordable and convenient
+              remittance services, regardless of their location or financial
+              status.
             </p>
             <p className="fs-2">
               <span className="value-circle me-5">02</span>
-              <span className="l fw-bold">
-                We embrace embarrassing honesty -{" "}
-              </span>
-              Developing ourselves to better serve others.
+              <span className="l fw-bold">Security - </span>
+              We take the security of your personal and financial information
+              seriously, and use state-of-the-art encryption and security
+              measures to keep your data safe.
             </p>
             <p className="fs-2">
               <span className="value-circle me-5">03</span>
-              <span className="l fw-bold">We are bias to action - </span>
-              We get first outcomes quickly, iterate and learn.
+              <span className="l fw-bold">Transparency - </span>
+              We're committed to being open and transparent about our fees,
+              exchange rates, and other important information. Innovation: We're
+              always looking for new and better ways to serve our customers, and
+              strive to stay ahead of the curve when it comes to remittance
+              technology.
             </p>
             <p className="fs-2">
               <span className="value-circle me-5">04</span>
-              <span className="l fw-bold">We strive to be better - </span>
-              We may make mistakes, but always learn from them. We lean into
-              uncomfortable conversations and support our colleagues when they
-              do the same.
+              <span className="l fw-bold">Partnership - </span>
+              We believe in working collaboratively with banks, mobile networks,
+              and other financial institutions to bring you the best possible
+              remittance experience.
             </p>
             <p className="fs-2">
               <span className="value-circle me-5">05</span>
-              <span className="l fw-bold">We are inclusive - </span>
-              To better reflect and serve our customers.
+              <span className="l fw-bold">Trust - </span>
+              We know that sending money is a sensitive matter, and we're
+              committed to earning and maintaining your trust through honest,
+              reliable service.
+            </p>
+            <p className="fs-2">
+              <span className="value-circle me-5">06</span>
+              <span className="l fw-bold">Speed and Efficiency - </span>
+              We understand that sending money quickly and efficiently is
+              important, which is why we offer fast and convenient transfers
+              that can be completed in seconds. Affordability: We're committed
+              to offering competitive exchange rates and low fees, so that you
+              can send more money to your loved ones in Ghana.
             </p>
           </div>
         </div>
