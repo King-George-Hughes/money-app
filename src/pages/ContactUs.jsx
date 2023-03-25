@@ -36,7 +36,7 @@ const ContactUs = () => {
                 hughesgeorgeme@gmail.com
               </a>
             </p>
-            <p>
+            <p className="mb-5">
               At kudixpress, we take the security of your personal and financial
               information seriously. Our app uses state-of-the-art encryption
               and security measures to ensure that your information is always

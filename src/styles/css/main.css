@@ -481,6 +481,9 @@ html {
 }
 .contact .contact-container .contact--section-1 {
   grid-area: one;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .contact .contact-container .contact--section-1 h2 {
   font-size: 5rem;
