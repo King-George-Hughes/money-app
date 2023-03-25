@@ -70,10 +70,11 @@ const ContactUs = () => {
                     placeholder="Leave a comment here"
                     cols="30"
                     rows="10"
-                    style={{ height: 100 }}
+                    style={{ height: 150 }}
                   ></textarea>
                   <label htmlFor="floatingTextarea">Comments</label>
                 </div>
+                <button className="btn btn-primary">Submit Form</button>
               </form>
             </p>
           </div>
