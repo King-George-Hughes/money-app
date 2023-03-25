@@ -178,13 +178,15 @@ html {
 }
 
 // Hoe It Works
-// .howItWorks {
-//   width: 100%;
+.howItWorks {
+  width: 100%;
 
-//   .container {
-//     padding-top: 10rem;
-//   }
-// }
+  .container {
+    .card {
+      box-shadow: 0 2px 5px $color-white-dark;
+    }
+  }
+}
 
 // About Page
 .about {

@@ -372,6 +372,13 @@ html {
   margin: 3rem auto;
 }
 
+.howItWorks {
+  width: 100%;
+}
+.howItWorks .container .card {
+  box-shadow: 0 2px 5px #aaa;
+}
+
 .about {
   width: 100%;
 }

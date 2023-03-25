@@ -3,8 +3,9 @@ import Layout from "../layout/Layout";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faUser } from "@fortawesome/free-regular-svg-icons";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
-import { faMoneyBill } from "@fortawesome/free-solid-svg-icons";
+import { faDollar } from "@fortawesome/free-solid-svg-icons";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
+import { faCameraRotate } from "@fortawesome/free-solid-svg-icons";
 
 const HowItWorks = () => {
   return (
@@ -44,7 +45,7 @@ const HowItWorks = () => {
               <div className="card-subtitle">
                 <h1>
                   <FontAwesomeIcon
-                    icon={faMoneyBill}
+                    icon={faDollar}
                     style={{ color: "#08778d" }}
                   />{" "}
                   Pay
@@ -62,7 +63,10 @@ const HowItWorks = () => {
             <div className="card p-5 mx-2 my-4">
               <div className="card-subtitle">
                 <h1>
-                  <FontAwesomeIcon icon={faEye} style={{ color: "#08778d" }} />{" "}
+                  <FontAwesomeIcon
+                    icon={faCameraRotate}
+                    style={{ color: "#08778d" }}
+                  />{" "}
                   Track your transfer
                 </h1>
               </div>
