@@ -18,55 +18,61 @@ const Footer = () => {
           style={{ margin: "0 auto" }}
         >
           <span className="me-4 fw-bold display-3">kudiXpress</span>
-          {/* <img src="../img/kudiXpress.png" width={150} alt="" /> */}
           <a href={homePage} className="logo">
             <img src="../img/KudiXpress.png" width={150} alt="kudiXpress" />
           </a>
         </div>
-        <p className="fs-3 fw-bold mt-5 mb-5" style={{ color: "#ddd" }}>
-          © Chime Inc. NMLS #1161354 Chime Inc. DBA kudiXpress è autorizzata in
-          quanto Transmetteur d'Argent dal Dipartimento dei Servizi Finanziari
-          di New York.
-        </p>
-        <a href={link} className="mx-3">
-          <img src="./img/ios-store.png" alt="" />
-        </a>
-        <a href={link} className="mx-3">
-          <img src="./img/android-store.png" alt="" />
-        </a>
-        <ul className="ul list-unstyled mt-5 fw-bold text-light">
-          <li className="fs-2 my-3 mx-5">
-            <a
-              href={aboutUs}
-              className="btn fs-3 btn-outline-light fw-bold"
-              style={{ width: 150, borderTop: "none", borderRight: "none" }}
-            >
-              About Us
+        <div className="d-md-flex align-items-center justify-content-center gap-5">
+          <div>
+            <p className="fs-3 fw-bold mt-5 mb-5" style={{ color: "#ddd" }}>
+              At &copy; kudixpress, we believe in transparency when it comes to
+              our fees. We strive to keep our fees as low as possible so that
+              you can send more money to your loved ones in Africa.{" "}
+              <a href={career} className="f link-info">
+                Read More..
+              </a>
+            </p>
+            <a href={link} className="mx-3">
+              <img src="./img/ios-store.png" alt="" />
             </a>
-          </li>
-          <li className="fs-2 my-3 mx-5 py-1">
-            <a
-              href={howItWorks}
-              className="btn fs-3 btn-outline-light fw-bold"
-              style={{ width: 150, borderTop: "none", borderRight: "none" }}
-            >
-              How it works
+            <a href={link} className="mx-3">
+              <img src="./img/android-store.png" alt="" />
             </a>
-          </li>
-          <li className="fs-2 my-3 mx-5 py-1">
-            <a
-              href={contactUs}
-              className="btn fs-3 btn-outline-light fw-bold"
-              style={{
-                width: 150,
-                borderTop: "none",
-                borderRight: "none",
-              }}
-            >
-              Contact Us
-            </a>
-          </li>
-        </ul>
+          </div>
+          <ul className="ul list-unstyled mt-5 fw-bold text-light">
+            <li className="fs-2 my-3 mx-5">
+              <a
+                href={aboutUs}
+                className="btn fs-3 btn-outline-light fw-bold"
+                style={{ width: 150, borderTop: "none", borderRight: "none" }}
+              >
+                About Us
+              </a>
+            </li>
+            <li className="fs-2 my-3 mx-5 py-1">
+              <a
+                href={howItWorks}
+                className="btn fs-3 btn-outline-light fw-bold"
+                style={{ width: 150, borderTop: "none", borderRight: "none" }}
+              >
+                How it works
+              </a>
+            </li>
+            <li className="fs-2 my-3 mx-5 py-1">
+              <a
+                href={contactUs}
+                className="btn fs-3 btn-outline-light fw-bold"
+                style={{
+                  width: 150,
+                  borderTop: "none",
+                  borderRight: "none",
+                }}
+              >
+                Contact Us
+              </a>
+            </li>
+          </ul>
+        </div>
         <hr className="bg-light my-4 mt-5" />
         <span className="fs-4">
           Copyright © {new Date().getFullYear()} kudiXpress | All Rights
