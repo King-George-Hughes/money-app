@@ -1,7 +1,15 @@
 import React from "react";
 import Layout from "../layout/Layout";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faUser } from "@fortawesome/free-regular-svg-icons";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
+import { faVoicemail } from "@fortawesome/free-solid-svg-icons";
 
 const ContactUs = () => {
+  const mailTo = "mailto:hughesgeorgeme@gmail.com";
+  const contactTo = "tel:+233573849441";
+
   return (
     <Layout>
       <div className="contact">
@@ -18,10 +26,16 @@ const ContactUs = () => {
           <div className="contact--section-1">
             <h2>Get In Touch</h2>
             <p>
-              Phone: <a href="#">+233 573 849 441</a>
+              <FontAwesomeIcon icon={faPhone} /> Phone:{" "}
+              <a href={contactTo} className="text-decoration-none ">
+                +233573849441
+              </a>
             </p>
             <p>
-              Email: <a href="#">hughesgeorgeme@gmail.com</a>
+              <FontAwesomeIcon icon={faVoicemail} /> Email:{" "}
+              <a href={mailTo} className="text-decoration-none ">
+                hughesgeorgeme@gmail.com
+              </a>
             </p>
             <p>
               At kudixpress, we take the security of your personal and financial
