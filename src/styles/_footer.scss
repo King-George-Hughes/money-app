@@ -3,4 +3,11 @@
   background: $gradient-primary-v2;
   margin-top: 8rem;
   color: $color-white;
+
+  .footer-container {
+    p {
+      max-width: 50rem;
+      margin: 0 auto;
+    }
+  }
 }

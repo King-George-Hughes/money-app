@@ -227,6 +227,10 @@ Slider
   margin-top: 8rem;
   color: #fff;
 }
+.footer .footer-container p {
+  max-width: 50rem;
+  margin: 0 auto;
+}
 
 html {
   font-family: "Source Sans Pro", sans-serif;
@@ -326,6 +330,13 @@ html {
 .tuto .tuto-container .tuto--section-2 .card img {
   box-shadow: 0 5px 5px #aaa;
   border-radius: 1rem;
+}
+
+.get-started {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.get-started .container a {
+  display: none;
 }
 
 .story {
@@ -575,6 +586,9 @@ html {
   }
   .story .story-container {
     grid-template-areas: "one" "two";
+  }
+  .get-started .container a {
+    display: inline-block;
   }
   .career .career-top {
     padding-top: 10rem;

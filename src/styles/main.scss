@@ -130,6 +130,15 @@ html {
   }
 }
 
+// Getting Started
+.get-started {
+  font-family: "Source Sans Pro", sans-serif;
+  .container {
+    a {
+      display: none;
+    }
+  }
+}
 // Story
 .story {
   padding: 3rem 1.5rem;
@@ -460,6 +469,15 @@ html {
   .story {
     .story-container {
       grid-template-areas: "one" "two";
+    }
+  }
+
+  // Getting Started
+  .get-started {
+    .container {
+      a {
+        display: inline-block;
+      }
     }
   }
 
