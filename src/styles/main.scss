@@ -259,20 +259,14 @@ html {
       p {
         margin: 5rem 2rem;
         display: flex;
-        justify-content: space-between;
         position: relative;
 
         .value-circle {
           display: inline-block;
-          align-self: center;
-          font-size: 3rem;
-          background: $gradient-primary-v2;
-          // width: 6rem;
-          // height: 6rem;
-          border-radius: 50%;
+          // align-self: center;
+          font-size: 4rem;
           text-align: center;
-          line-height: 6rem;
-          color: $color-white;
+          color: $gradient-primary-v2;
         }
       }
     }

@@ -439,18 +439,13 @@ html {
 .about .about-bottom .about-values p {
   margin: 5rem 2rem;
   display: flex;
-  justify-content: space-between;
   position: relative;
 }
 .about .about-bottom .about-values p .value-circle {
   display: inline-block;
-  align-self: center;
-  font-size: 3rem;
-  background: linear-gradient(to top left, #0a6375, #08778d);
-  border-radius: 50%;
+  font-size: 4rem;
   text-align: center;
-  line-height: 6rem;
-  color: #fff;
+  color: linear-gradient(to top left, #0a6375, #08778d);
 }
 
 .contact {

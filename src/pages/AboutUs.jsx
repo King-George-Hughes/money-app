@@ -60,7 +60,9 @@ const AboutUs = () => {
           </h1>
           <div className="about-values">
             <p className="fs-2">
-              <span className="value-circle me-5">01</span>
+              <h2 className="value-circle me-5 text-decoration-underline">
+                01
+              </h2>
               <span>
                 <span className="fw-bold">Customer Focus - </span>
                 We always put our customers first, and are committed to
@@ -71,7 +73,9 @@ const AboutUs = () => {
               </span>
             </p>
             <p className="fs-2">
-              <span className="value-circle me-5">02</span>
+              <h2 className="value-circle me-5 text-decoration-underline">
+                02
+              </h2>
               <span>
                 <span className="fw-bold">Security - </span>
                 We take the security of your personal and financial information
@@ -80,7 +84,9 @@ const AboutUs = () => {
               </span>
             </p>
             <p className="fs-2">
-              <span className="value-circle me-5">03</span>
+              <h2 className="value-circle me-5 text-decoration-underline">
+                03
+              </h2>
               <span>
                 <span className="fw-bold">Transparency - </span>
                 We're committed to being open and transparent about our fees,
@@ -91,7 +97,9 @@ const AboutUs = () => {
               </span>
             </p>
             <p className="fs-2">
-              <span className="value-circle me-5">04</span>
+              <h2 className="value-circle me-5 text-decoration-underline">
+                04
+              </h2>
               <span>
                 <span className="fw-bold">Partnership - </span>
                 We believe in working collaboratively with banks, mobile
@@ -100,7 +108,9 @@ const AboutUs = () => {
               </span>
             </p>
             <p className="fs-2">
-              <span className="value-circle me-5">05</span>
+              <h2 className="value-circle me-5 text-decoration-underline">
+                05
+              </h2>
               <span>
                 <span className="fw-bold">Trust - </span>
                 We know that sending money is a sensitive matter, and we're
@@ -109,7 +119,9 @@ const AboutUs = () => {
               </span>
             </p>
             <p className="fs-2">
-              <span className="value-circle me-5">06</span>
+              <h2 className="value-circle me-5 text-decoration-underline ">
+                06
+              </h2>
               <span>
                 <span className="fw-bold">Speed and Efficiency - </span>
                 We understand that sending money quickly and efficiently is
