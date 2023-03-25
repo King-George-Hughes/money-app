@@ -3,9 +3,11 @@ import Card from "../components/Card";
 import Layout from "../layout/Layout";
 import Slider from "../components/Slider";
 import { tutorials } from "../Data/Data";
+import { Link, NavLink } from "react-router-dom";
 
 const Home = () => {
   const link = "#";
+  const ourStory = "/our-story";
 
   const cards = tutorials.map((data) => {
     return <Card key={data.id} data={data} />;
@@ -86,9 +88,12 @@ const Home = () => {
               At kudiXpress, we're on a mission: to make sure your money gets to
               your friends and family, as safely and effortlessly as possible.
             </p>
-            <button className="btn btn-primary fs-1 p-4 px-5 btn-story">
+            <a
+              href={ourStory}
+              className="btn btn-primary fs-1 p-4 px-5 btn-story"
+            >
               Our Story
-            </button>
+            </a>
           </div>
           <div className="story--section-2">
             <img src="../img/story.png" alt="" />
