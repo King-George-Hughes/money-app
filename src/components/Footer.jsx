@@ -36,26 +36,26 @@ const Footer = () => {
         </a>
         <ul className="ul list-unstyled mt-5 fw-bold text-light">
           <li className="fs-2 my-3 mx-5">
-            <Link
-              to={aboutUs}
+            <a
+              href={aboutUs}
               className="btn fs-3 btn-outline-light fw-bold"
               style={{ width: 150, borderTop: "none", borderRight: "none" }}
             >
               About Us
-            </Link>
+            </a>
           </li>
           <li className="fs-2 my-3 mx-5 py-1">
-            <Link
-              to={howItWorks}
+            <a
+              href={howItWorks}
               className="btn fs-3 btn-outline-light fw-bold"
               style={{ width: 150, borderTop: "none", borderRight: "none" }}
             >
               How it works
-            </Link>
+            </a>
           </li>
           <li className="fs-2 my-3 mx-5 py-1">
-            <Link
-              to={contactUs}
+            <a
+              href={contactUs}
               className="btn fs-3 btn-outline-light fw-bold"
               style={{
                 width: 150,
@@ -64,7 +64,7 @@ const Footer = () => {
               }}
             >
               Contact Us
-            </Link>
+            </a>
           </li>
         </ul>
         <hr className="bg-light my-4 mt-5" />
