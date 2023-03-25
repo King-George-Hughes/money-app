@@ -4,9 +4,9 @@ import Layout from "../layout/Layout";
 const AboutUs = () => {
   return (
     <Layout>
-      <div className="career">
+      <div className="about">
         {/* Career Top */}
-        <div className="career-top">
+        <div className="about-top">
           <div className="container">
             <h1>About Us</h1>
           </div>
@@ -14,8 +14,8 @@ const AboutUs = () => {
         </div>
 
         {/* Career Second */}
-        <div className="container career-container">
-          <div className="career--section-1">
+        <div className="container about-container">
+          <div className="about--section-1">
             <h2>About kudiXpress</h2>
             <p>
               Our company was founded on the principle that everyone should have
@@ -48,17 +48,17 @@ const AboutUs = () => {
               and start sending money today!
             </p>
           </div>
-          <div className="career--section-2">
+          <div className="about--section-2">
             <img src="../img/people.jpg" className="img-fluid" alt="" />
           </div>
         </div>
 
         {/* Career Bottom */}
-        <div className="container career-bottom">
+        <div className="container about-bottom">
           <h1 className="display-1 fw-bold text-center mb-3 value-heading">
             Our Values and Commitments
           </h1>
-          <div className="career-values">
+          <div className="about-values">
             <p className="fs-2">
               <span className="value-circle me-5">01</span>
               <span className="l fw-bold">We act like owners - </span>

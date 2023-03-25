@@ -181,10 +181,10 @@ html {
 }
 
 // Career Page
-.career {
+.about {
   width: 100%;
   // Career first
-  .career-top {
+  .about-top {
     padding-top: 10rem;
     background: $gradient-primary-v2;
     position: relative;
@@ -205,7 +205,7 @@ html {
     }
   }
 
-  .career-container {
+  .about-container {
     width: 100%;
     // Career Second
     margin-top: 2rem;
@@ -218,7 +218,7 @@ html {
     // Redefine
     grid-template-areas: "one two" "one two";
 
-    .career--section-1 {
+    .about--section-1 {
       grid-area: one;
 
       h2 {
@@ -235,7 +235,7 @@ html {
         max-width: 60rem;
       }
     }
-    .career--section-2 {
+    .about--section-2 {
       grid-area: two;
       display: flex;
 
@@ -248,7 +248,7 @@ html {
     }
   }
 
-  .career-bottom {
+  .about-bottom {
     margin-top: 10rem;
 
     .value-heading {
@@ -256,7 +256,7 @@ html {
       margin: 0 auto;
     }
 
-    .career-values {
+    .about-values {
       p {
         margin: 5rem 2rem;
         .value-circle {
@@ -575,9 +575,9 @@ html {
     }
   }
 
-  // Career
-  .career {
-    .career-top {
+  // About
+  .about {
+    .about-top {
       padding-top: 10rem;
 
       .container {
@@ -589,10 +589,10 @@ html {
       }
     }
 
-    .career-container {
+    .about-container {
       grid-template-areas: "two" "one";
 
-      .career--section-1 {
+      .about--section-1 {
         grid-area: one;
 
         h2 {
@@ -602,6 +602,13 @@ html {
 
         p {
           font-size: 1.5rem;
+        }
+      }
+
+      .about--section-2 {
+        img {
+          border-radius: 1.5rem;
+          margin-bottom: -1rem;
         }
       }
     }
