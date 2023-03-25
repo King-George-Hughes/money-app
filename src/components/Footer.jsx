@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   const link = "#";
+  const homePage = "/";
   const ourStory = "/our-story";
   const career = "/careers";
   const aboutUs = "/about-us";
@@ -17,7 +18,10 @@ const Footer = () => {
           style={{ margin: "0 auto" }}
         >
           <span className="me-4 fw-bold display-3">kudiXpress</span>
-          <img src="../img/kudiXpress.png" width={150} alt="" />
+          {/* <img src="../img/kudiXpress.png" width={150} alt="" /> */}
+          <a href={homePage} className="logo">
+            <img src="../img/KudiXpress.png" width={150} alt="" />
+          </a>
         </div>
         <p className="fs-3 fw-bold mt-5 mb-5" style={{ color: "#ddd" }}>
           © Chime Inc. NMLS #1161354 Chime Inc. DBA kudiXpress è autorizzata in
