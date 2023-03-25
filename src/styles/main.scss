@@ -275,8 +275,102 @@ html {
   }
 }
 
+// About Page
+.contact {
+  width: 100%;
+  // Career first
+  .contact-top {
+    padding-top: 10rem;
+    background: $gradient-primary-v2;
+    position: relative;
+
+    img {
+      width: 100%;
+    }
+
+    .container {
+      text-align: center;
+      padding: 10rem 0;
+
+      h1 {
+        color: $color-white;
+        font-size: 7rem;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .contact-container {
+    width: 100%;
+    // Career Second
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    display: grid;
+    gap: 8rem;
+    grid-auto-flow: 1fr;
+    grid-template-areas: "one" "two";
+
+    // Redefine
+    grid-template-areas: "one two" "one two";
+
+    .contact--section-1 {
+      grid-area: one;
+
+      h2 {
+        font-size: 5rem;
+        font-weight: bold;
+        margin-bottom: 4rem;
+      }
+
+      p {
+        font-size: 2rem;
+        color: $color-black-light;
+        margin: 2rem 0;
+        letter-spacing: 0.1rem;
+        max-width: 60rem;
+      }
+    }
+    .contact--section-2 {
+      grid-area: two;
+      display: flex;
+
+      img {
+        width: 100%;
+        max-width: 60rem;
+        object-fit: cover;
+        border-radius: 0.5rem 5rem 5rem 5rem;
+      }
+    }
+  }
+
+  .contact-bottom {
+    margin-top: 10rem;
+
+    .value-heading {
+      max-width: 50rem;
+      margin: 0 auto;
+    }
+
+    .contact-values {
+      p {
+        margin: 5rem 2rem;
+        .value-circle {
+          display: inline-block;
+          font-size: 3rem;
+          background: $gradient-primary-v2;
+          width: 6rem;
+          height: 6rem;
+          border-radius: 50%;
+          text-align: center;
+          line-height: 6rem;
+          color: $color-white;
+        }
+      }
+    }
+  }
+}
+
 // Story Page
-// Career Page
 .our-story {
   width: 100%;
   // Career first
@@ -499,6 +593,38 @@ html {
       grid-template-areas: "two" "one";
 
       .career--section-1 {
+        grid-area: one;
+
+        h2 {
+          font-size: 3rem;
+          margin-bottom: 2rem;
+        }
+
+        p {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
+  // Contact
+  .contact {
+    .contact-top {
+      padding-top: 10rem;
+
+      .container {
+        padding: 3rem 0;
+
+        h1 {
+          font-size: 2.5rem;
+        }
+      }
+    }
+
+    .contact-container {
+      grid-template-areas: "one" "two";
+
+      .contact--section-1 {
         grid-area: one;
 
         h2 {

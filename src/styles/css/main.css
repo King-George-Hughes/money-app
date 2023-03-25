@@ -450,6 +450,83 @@ html {
   color: #fff;
 }
 
+.contact {
+  width: 100%;
+}
+.contact .contact-top {
+  padding-top: 10rem;
+  background: linear-gradient(to top left, #0a6375, #08778d);
+  position: relative;
+}
+.contact .contact-top img {
+  width: 100%;
+}
+.contact .contact-top .container {
+  text-align: center;
+  padding: 10rem 0;
+}
+.contact .contact-top .container h1 {
+  color: #fff;
+  font-size: 7rem;
+  font-weight: bold;
+}
+.contact .contact-container {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 1rem 3rem;
+  display: grid;
+  gap: 8rem;
+  grid-auto-flow: 1fr;
+  grid-template-areas: "one" "two";
+  grid-template-areas: "one two" "one two";
+}
+.contact .contact-container .contact--section-1 {
+  grid-area: one;
+}
+.contact .contact-container .contact--section-1 h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 4rem;
+}
+.contact .contact-container .contact--section-1 p {
+  font-size: 2rem;
+  color: #444;
+  margin: 2rem 0;
+  letter-spacing: 0.1rem;
+  max-width: 60rem;
+}
+.contact .contact-container .contact--section-2 {
+  grid-area: two;
+  display: flex;
+}
+.contact .contact-container .contact--section-2 img {
+  width: 100%;
+  max-width: 60rem;
+  object-fit: cover;
+  border-radius: 0.5rem 5rem 5rem 5rem;
+}
+.contact .contact-bottom {
+  margin-top: 10rem;
+}
+.contact .contact-bottom .value-heading {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+.contact .contact-bottom .contact-values p {
+  margin: 5rem 2rem;
+}
+.contact .contact-bottom .contact-values p .value-circle {
+  display: inline-block;
+  font-size: 3rem;
+  background: linear-gradient(to top left, #0a6375, #08778d);
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 6rem;
+  color: #fff;
+}
+
 .our-story {
   width: 100%;
 }
@@ -610,6 +687,28 @@ html {
     margin-bottom: 2rem;
   }
   .career .career-container .career--section-1 p {
+    font-size: 1.5rem;
+  }
+  .contact .contact-top {
+    padding-top: 10rem;
+  }
+  .contact .contact-top .container {
+    padding: 3rem 0;
+  }
+  .contact .contact-top .container h1 {
+    font-size: 2.5rem;
+  }
+  .contact .contact-container {
+    grid-template-areas: "one" "two";
+  }
+  .contact .contact-container .contact--section-1 {
+    grid-area: one;
+  }
+  .contact .contact-container .contact--section-1 h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  .contact .contact-container .contact--section-1 p {
     font-size: 1.5rem;
   }
   .our-story .our-story-top {
