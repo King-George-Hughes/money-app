@@ -19,7 +19,7 @@ const Footer = () => {
           <span className="me-4 fw-bold display-3">kudiXpress</span>
           <img src="../img/kudiXpress.png" width={150} alt="" />
         </div>
-        <p className="fs-3 fw-bold mt-5 mb-4" style={{ color: "#ddd" }}>
+        <p className="fs-3 fw-bold mt-5 mb-5" style={{ color: "#ddd" }}>
           © Chime Inc. NMLS #1161354 Chime Inc. DBA kudiXpress è autorizzata in
           quanto Transmetteur d'Argent dal Dipartimento dei Servizi Finanziari
           di New York.
@@ -63,7 +63,7 @@ const Footer = () => {
             </Link>
           </li>
         </ul>
-        <hr className="bg-light my-4" />
+        <hr className="bg-light my-4 mt-5" />
         <span className="fs-4">
           Copyright © {new Date().getFullYear()} kudiXpress | All Rights
           Reserved.
