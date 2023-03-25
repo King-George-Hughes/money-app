@@ -3,7 +3,6 @@ import Layout from "../layout/Layout";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faUser } from "@fortawesome/free-regular-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { faVoicemail } from "@fortawesome/free-solid-svg-icons";
 
 const ContactUs = () => {
@@ -46,20 +45,26 @@ const ContactUs = () => {
             <form action="form">
               <div className="form-floating mb-3">
                 <input
+                  type="text"
+                  className="form-control form-control-lg"
+                  placeholder="george"
+                  style={{ fontSize: "1.5rem" }}
+                ></input>
+                <label htmlFor="floatingInput" style={{ fontSize: "1.2rem" }}>
+                  User Name..
+                </label>
+              </div>
+              <div className="form-floating mb-3">
+                <input
                   type="email"
                   className="form-control form-control-lg"
                   id="floatingInput"
                   placeholder="name@example.com"
+                  style={{ fontSize: "1.5rem" }}
                 />
-                <label htmlFor="floatingInput">Email Address</label>
-              </div>
-              <div className="form-floating mb-3">
-                <input
-                  type="text"
-                  className="form-control form-control-lg"
-                  placeholder="john"
-                ></input>
-                <label htmlFor="floatingInput">User Name..</label>
+                <label htmlFor="floatingInput" style={{ fontSize: "1.2rem" }}>
+                  Email Address
+                </label>
               </div>
               <div className="form-floating mb-3">
                 <textarea
@@ -69,15 +74,25 @@ const ContactUs = () => {
                   placeholder="Leave a comment here"
                   cols="30"
                   rows="10"
-                  style={{ height: 150 }}
+                  style={{ height: 150, fontSize: "1.5rem" }}
                 ></textarea>
-                <label htmlFor="floatingTextarea">Message</label>
+                <label
+                  htmlFor="floatingTextarea"
+                  style={{ fontSize: "1.2rem" }}
+                >
+                  Message....
+                </label>
               </div>
-              <button className="btn btn-primary">Send Message</button>
+              <button
+                className="btn btn-primary fs-2"
+                style={{ background: "#08778d" }}
+              >
+                Send Message
+              </button>
             </form>
           </div>
           <div className="contact--section-2">
-            <img src="../img/people.jpg" className="img-fluid" alt="" />
+            <img src="../img/T&C.jpg" className="img-fluid" alt="" />
           </div>
         </div>
       </div>

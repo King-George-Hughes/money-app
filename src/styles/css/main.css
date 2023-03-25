@@ -490,9 +490,19 @@ html {
 .contact .contact-container .contact--section-1 p {
   font-size: 2rem;
   color: #444;
-  margin: 2rem 0;
+  margin: 1rem 0;
   letter-spacing: 0.1rem;
   max-width: 60rem;
+}
+.contact .contact-container .contact--section-1 form input {
+  max-width: 60rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.contact .contact-container .contact--section-1 form textarea {
+  max-width: 60rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .contact .contact-container .contact--section-2 {
   grid-area: two;
