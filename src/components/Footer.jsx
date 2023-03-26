@@ -48,7 +48,12 @@ const Footer = () => {
               <a
                 href={aboutUs}
                 className="btn fs-3 btn-outline-light fw-bold"
-                style={{ width: 150, borderTop: "none", borderRight: "none" }}
+                style={{
+                  width: 150,
+                  borderTop: "none",
+                  borderRight: "none",
+                  borderLeft: "none",
+                }}
               >
                 About Us
               </a>
@@ -57,7 +62,12 @@ const Footer = () => {
               <a
                 href={howItWorks}
                 className="btn fs-3 btn-outline-light fw-bold"
-                style={{ width: 150, borderTop: "none", borderRight: "none" }}
+                style={{
+                  width: 150,
+                  borderTop: "none",
+                  borderRight: "none",
+                  borderLeft: "none",
+                }}
               >
                 How it works
               </a>
@@ -70,6 +80,7 @@ const Footer = () => {
                   width: 150,
                   borderTop: "none",
                   borderRight: "none",
+                  borderLeft: "none",
                 }}
               >
                 Contact Us
