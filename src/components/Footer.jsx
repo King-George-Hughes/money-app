@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   const link = "#";
   const homePage = "/";
-  const ourStory = "/our-story";
-  const career = "/careers";
+  // const ourStory = "/our-story";
+  const disclaimer = "/disclaimer";
   const aboutUs = "/about-us";
   const howItWorks = "/how-it-works";
   const contactUs = "/contact-us";
@@ -32,7 +32,7 @@ const Footer = () => {
               At &copy; kudixpress, we believe in transparency when it comes to
               our fees. We strive to keep our fees as low as possible so that
               you can send more money to your loved ones in Africa.{" "}
-              <a href={career} className="f link-info">
+              <a href={disclaimer} className="f link-info">
                 Read More..
               </a>
             </p>

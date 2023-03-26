@@ -9,6 +9,7 @@ import Career from "./pages/Career";
 import AboutUs from "./pages/AboutUs";
 import HowItWorks from "./pages/HowItWorks";
 import ContactUs from "./pages/ContactUs";
+import Disclaimer from "./pages/Disclaimer";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
   {
     path: "/contact-us",
     element: <ContactUs />,
+  },
+  {
+    path: "/disclaimer",
+    element: <Disclaimer />,
   },
 ]);
 
