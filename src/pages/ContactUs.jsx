@@ -42,7 +42,7 @@ const ContactUs = () => {
               and security measures to ensure that your information is always
               safe and secure.
             </p>
-            <form action="form">
+            <form className="form">
               <div className="form-floating mb-3">
                 <input
                   type="text"
@@ -85,7 +85,7 @@ const ContactUs = () => {
               </div>
               <button
                 className="btn btn-primary fs-2"
-                style={{ background: "#08778d" }}
+                style={{ background: "#08778d", border: "none" }}
               >
                 Send Message
               </button>
