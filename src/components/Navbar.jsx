@@ -6,7 +6,7 @@ import { Link, NavLink } from "react-router-dom";
 const Navbar = () => {
   const homePage = "/";
   const ourStory = "/our-story";
-  const career = "/careers";
+  const benefits = "/benefits";
   const aboutUs = "/about-us";
   const howItWorks = "/how-it-works";
   const contactUs = "/contact-us";
@@ -70,12 +70,12 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to={career}
+                to={benefits}
                 className={({ isActive }) =>
                   isActive ? "link current" : "link"
                 }
               >
-                Careers
+                Benefits
               </NavLink>
             </li>
             <li>
@@ -123,8 +123,8 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a className="text-decoration-none" href={career}>
-                Careers
+              <a className="text-decoration-none" href={benefits}>
+                Benefits
               </a>
             </li>
             <li>

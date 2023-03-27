@@ -10,6 +10,7 @@ import AboutUs from "./pages/AboutUs";
 import HowItWorks from "./pages/HowItWorks";
 import ContactUs from "./pages/ContactUs";
 import Disclaimer from "./pages/Disclaimer";
+import Benefits from "./pages/Benefits";
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
   {
     path: "/disclaimer",
     element: <Disclaimer />,
+  },
+  {
+    path: "/benefits",
+    element: <Benefits />,
   },
 ]);
 
