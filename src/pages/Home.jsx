@@ -21,7 +21,7 @@ const Home = () => {
           <div className="hero--section-1">
             <h1 className="title">Send money with love</h1>
             <img
-              src="../img/love.jpg"
+              src="../img/pexels5.jpg"
               className="img-fluid mb-5 mt-2 love-img"
               alt=""
             />
@@ -122,8 +122,24 @@ const Home = () => {
             <img src="./img/android-store.png" alt="" />
           </a>
           <img
-            style={{ borderRadius: 25, maxWidth: 500 }}
-            src="../img/started.jpg"
+            style={{
+              borderRadius: 25,
+              maxHeight: 450,
+              maxWidth: 500,
+              objectFit: "cover",
+            }}
+            src="../img/pexels1.jpg"
+            className="w-100 mt-5 p-3"
+            alt=""
+          />
+          <img
+            style={{
+              borderRadius: 25,
+              maxHeight: 450,
+              maxWidth: 500,
+              objectFit: "cover",
+            }}
+            src="../img/pexels4.jpg"
             className="w-100 mt-5 p-3"
             alt=""
           />
