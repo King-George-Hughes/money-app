@@ -140,7 +140,7 @@ const Home = () => {
               objectFit: "cover",
             }}
             src="../img/pexels4.jpg"
-            className="w-100 mt-5 p-3"
+            className="second-pic w-100 mt-5 p-3"
             alt=""
           />
         </div>

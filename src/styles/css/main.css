@@ -686,6 +686,9 @@ html {
   .get-started .container a {
     display: inline-block;
   }
+  .get-started .container .second-pic {
+    display: none;
+  }
   .about .about-top {
     padding-top: 10rem;
   }
